@@ -1,0 +1,22 @@
+{
+  "name": "clawer",
+  "version": "1.0.0",
+  "description": "clawer ways",
+  "main": "geturl.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "encoding": "^0.1.12",
+    "iconv": "^2.2.3",
+    "iconv-lite": "^0.4.15",
+    "jsdom": "^9.11.0",
+    "request": "^2.81.0",
+    "superagent": "^3.5.2",
+    "superagent-charset": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fantasygao",
+  "license": "ISC"
+}
