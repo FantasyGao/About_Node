@@ -26,10 +26,10 @@ http.get(options,function(result){
 ##### 结果中文乱码如何解决，用iconv-lite模块将得到的内容进行转码即可。
 ```javascript
 request(options,function(err,res,body){
-	if(err)console.log(err);
+  if(err)console.log(err);
   if(!err&&res.statusCode==200){
-		var html = iconv.decode(body, 'gb2312');     //这里body是直接拿到的是Buffer类型的数据，可以直接解码。
-		var $ = cheerio.load(html);
+	var html = iconv.decode(body, 'gb2312');     //这里body是直接拿到的是Buffer类型的数据，可以直接解码。
+	var $ = cheerio.load(html);
         ...
   }
 });
@@ -49,10 +49,12 @@ var superagent = charset(require("superagent"));   //将superagent模块传递�
 ##### 解码方式：
 ```javascript
 superagent.get(url)
-	.charset('gb2312')                                //用charset方法达到解码效果。
-	.end(function(err,result){
-		if(err) console.log(err);
-		var $ = cheerio.load(result.text);
+  .charset('gb2312')                                //用charset方法达到解码效果。
+  .end(function(err,result){
+     if(err) console.log(err);
+     var $ = cheerio.load(result.text);
+     ...
+     });
 ```
 
 #### 总结：三种方式都可以达到我们的目的，前两种容易理解，最后一种解码方式很方便，很顺手。
