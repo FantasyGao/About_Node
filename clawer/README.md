@@ -12,9 +12,9 @@ http.get(options,function(result){
      body.push(chunk);
   });
   result.on('end', function () {
-  var html = iconv.decode(Buffer.concat(body), 'gb2312');  //注意这里body是数组
-  var $ = cheerio.load(html);
-    ...
+     var html = iconv.decode(Buffer.concat(body), 'gb2312');  //注意这里body是数组
+     var $ = cheerio.load(html);
+     ...
   });
 });
 ```
