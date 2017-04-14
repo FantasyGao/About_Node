@@ -22,12 +22,14 @@ var b = require('./b.js');
 ```
 ##### 加载顺序决定了先进入那个文件。
 
+
 ### a.js：
 ```javascript
 exports.done = "A-content";
 var b = require('./b.js');
 ```
 ##### 当遇到require b文件时开始进入b，并且带着done属性。
+
 
 ### b.js：
 ```javascript
@@ -38,6 +40,7 @@ exports.done = 'D-content';
 ```
 ##### 进入b文件时候，b也有带着自己的done属性向下执行，然后遇到require a文件，此时因为main里面已经加载过一次a文件了，此时b文件中不会再次加载a文件，继续向下执行。但是var a = require('./a.js'); 忍然是有效的，a.done打印的并非是b文件刚加的done属性，而是在a在进入b的时候里面的done属性，即为 A-content,然后带着自己的done属性（此时的done覆盖了前面的done，是b最终的done属性），然后重新回到require b文件的a文件。
 
+
 ### a.js：
 ```javascript
 var b = require('./b.js');
@@ -45,6 +48,7 @@ console.log('in a, b.done = %j', b.done);
 exports.done = "B-content";              
 ```
 ##### 进入a文件此时打印b.done就是刚才覆盖了done的最终属性，为D-content，然后再次导出自己的done属性，覆盖a文件自己的done属性。然后回到require它的的main文件。
+
 
 ### main.js：
 ```javascript
