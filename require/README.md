@@ -4,8 +4,8 @@
 ### Build Setup
 
 ``` bash
-# install Nodejs
-安装nodejs环境
+# git clone 
+安装
 
 # RUN
 node main.js
