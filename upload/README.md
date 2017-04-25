@@ -14,7 +14,7 @@
  #### 通过busboy.on('file',...)来监听是否是文件上传，如果是符合条件，则用定义好的content缓存上传的文件信息，利用fs.createWriteStream创建可读流，将上传的文件存入file文件夹里。
  
  ``` javascript
- 		var busboy = new Busboy({ headers: req.headers });
+ 	var busboy = new Busboy({ headers: req.headers });
 		//文件类型
 		busboy.on('file', function(fieldname, file, filename, encoding, mimetype) {
 			console.log('File [' + fieldname + ']: filename: ' + filename + ', encoding: ' + encoding + ', mimetype: ' + mimetype);
