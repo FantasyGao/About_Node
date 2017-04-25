@@ -4,6 +4,7 @@
 ### Build Setup
 
 ``` bash
+node -v 7.9.0
 # git clone 
 
 安装
