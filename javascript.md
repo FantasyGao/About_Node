@@ -37,4 +37,20 @@
 > var a=[1,3]; var i = 0;a[i++]=a[i++]*2;   //a[0]=6;a[1]=3;
  在经过a[i++]时i已经加1，等号右边成a[1]*2,结果3*2=6；如果最后打印i，已经是2
  ```
-### 待添加...
+ ```
+var geval =eval;
+var a='i',b='you';
+function am(){
+  var a= 'he';
+  eval("a+='bcd';")
+  return a
+}
+function bm(){
+  var b= 'xy';
+  geval("b+='mnb';")
+  return b
+}
+console.log(am(),a);console.log(bm(),b)    //hebcd i ,xy youmnb
+eval运算时不带任何数据，取当前作用域的数据进行操作。eval("a+='bcd';")中a即a='he'内的值。
+外部定义eval的来引用时，会带来全局变量的数据。geval执行时，b的值是window下的b并非bm函数下的b，即geval自己带来的数据进行操作。
+ ```
