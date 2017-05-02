@@ -66,3 +66,4 @@ eval运算时不带任何数据，取当前作用域的数据进行操作。eval
  obj.join("--");
  //"[object Object]--2"           ({a:1}).toString() = "[object Object]"  然后连接
  ```
+## 待添加...
