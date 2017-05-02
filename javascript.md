@@ -54,3 +54,15 @@ console.log(am(),a);console.log(bm(),b)    //hebcd i ,xy youmnb
 eval运算时不带任何数据，取当前作用域的数据进行操作。eval("a+='bcd';")中a即a='he'内的值。
 外部定义eval的来引用时，会带来全局变量的数据。geval执行时，b的值是window下的b并非bm函数下的b，即geval自己带来的数据进行操作。
  ```
+ #### 实现深拷贝(深拷贝：拷贝对象与被拷贝对象各自占用内存，相互操作互不影响。)
+ ```
+ var obj1 = {a:1,b:{c:1}};
+ var str  = JSON.stringify(obj1);
+ var obj2 = JSON.parse(str);
+ 利用JSON的方法进行转化即可
+ ```
+ ```
+ var obj=[{a:1},2];
+ obj.join("--");
+ //"[object Object]--2"           ({a:1}).toString() = "[object Object]"  然后连接
+ ```
