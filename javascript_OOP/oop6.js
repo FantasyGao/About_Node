@@ -29,4 +29,4 @@ var myObj={
 var myO= deepCopy(myObj)
 var my1= deepCopy(myObj)
 
-console.log(myO==my1)
+console.log(myO==my1)   //false
