@@ -6,3 +6,4 @@
 #### 4.upload：nodejs文件上传服务器
 #### 5.quickrun: 用进程模块从命令行快速启动应用
 #### 6.javascript_OOP: javascript面向对象学习
+#### 7.javascript_proto: javascript原型链
