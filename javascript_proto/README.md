@@ -1,5 +1,5 @@
-javascript 原型链学习
-示意图：
+##javascript 原型链
+### 示意图：
 ![proto](https://github.com/FantasyGao/About_Node/blob/master/javascript_proto/proto.png?raw=true)
 ```javascript
 function Person(name){
