@@ -6,12 +6,26 @@ function Person(name){
 	this.name = name
 }
 
+var me = new Person('FantasyGao')
+var obj = {}
+```
+### 总结
+1. Object,Function,自定义函数类（Person）有prototype属性，其余没有
+2. Function的peototype属性与__proto__属性指向同一内容(Function.__proto__===Function.prototype)
+3. 由构造函数生成的对象与直接定义的对象原型链有差异（me.__proto__.__proto__===obj.__proto__)
+4. 对象的constructor属性即它__proto__属性被prototype指向的值(me.constructor===Person,me.__proto__.constructor===Person)
+5 任何对象由原型链查找到顶端为null(Object.prototype.__proto__===null)
+
+```javascript
+function Person(name){
+	this.name = name
+}
+
 Person.prototype.sayName = function(){
 	console.log(this===me)       //true 
 	console.log(this.__proto__===Person.prototype)       //true 
 	return this.name
 }
-var amm = new Object()
 
 var me = new Person('FantasyGao')
 
@@ -49,7 +63,7 @@ console.log(me.__proto__.__proto__.__proto__===null)                      //true
 console.log(obj.__proto__.__proto__===null)                               //true 定义对象的__proto__的__proto__即null
      
 
-console.log(me.prototype)  	                                              //undefined
+console.log(me.prototype)  	                                           //undefined
 console.log(obj.prototype)  	                                          //undefined
 console.log(Person.__proto__.prototype)                                   //undefined
 console.log(me.__proto__.prototype)  	                                  //undefined
