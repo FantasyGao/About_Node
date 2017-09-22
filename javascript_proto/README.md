@@ -14,7 +14,7 @@ var obj = {}
 2. Function的peototype属性与__proto__属性指向同一内容(Function.__proto__===Function.prototype)
 3. 由构造函数生成的对象与直接定义的对象原型链有差异（me.__proto__.__proto__===obj.__proto__)
 4. 对象的constructor属性即它__proto__属性被prototype指向的值(me.constructor===Person,me.__proto__.constructor===Person)
-5 任何对象由原型链查找到顶端为null(Object.prototype.__proto__===null)
+5. 任何对象由原型链查找到顶端为null(Object.prototype.__proto__===null)
 
 ```javascript
 function Person(name){
