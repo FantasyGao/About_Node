@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<body>
+  <iframe id="iframe" src="http://child.domain.com/b.html"></iframe>
+  <script>
+      document.domain = 'domain.com';
+      var user = 'admin';
+  </script>
+  <script>
+    document.domain = 'domain.com';
+    // 获取父窗口中变量
+    alert('get js data from parent ---> ' + window.parent.user);
+</script>
+</body>

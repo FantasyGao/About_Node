@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>animation</title>
+</head>
+<body>
+  <div>
+    <div id="splider"></div>
+  </div>
+</body>
+<style>
+  #splider {
+    width: 30px;
+    height: 30px;
+    background: black;
+  }
+</style>
+<script type="text/javascript">
+  window.onload = function () {
+
+    const splider = document.getElementById('splider');
+
+    const now = Date.now()
+    let margin = 1
+    let start = 1
+
+    const timer = (ms=1) => {
+      [ margin, start ] = [ margin+1.5, start+1 ]
+      setTimeout(()=>{
+        splider.style.marginLeft = margin + 'px'
+        Date.now() < (now+5000) && timer(start)
+      }, ms)
+    }
+    timer()
+  };
+</script>
+
+</html>

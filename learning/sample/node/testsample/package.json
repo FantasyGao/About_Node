@@ -1,0 +1,17 @@
+{
+  "name": "testsample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index1.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}

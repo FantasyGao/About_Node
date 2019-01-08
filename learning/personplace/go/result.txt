@@ -1,0 +1,1252 @@
+共查找到103个文件
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/404.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accbought.vue
+第24行包含中文:            <a class="paybtn" @click.stop.prevent="btnClick">查看汇款指南</a>
+第25行包含中文:            <a  class="backbtn" @click.stop.prevent="btnBack">返回首页</a>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/acchome.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accintl/sel-companytype.vue
+第3行包含中文:    <common-mheaderfixed title="选择职业"></common-mheaderfixed>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accintl/sel-country.vue
+第3行包含中文:    <common-mheaderfixed title="选择国家地区"></common-mheaderfixed>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accintl/sel-doctype.vue
+第3行包含中文:    <common-mheaderfixed title="选择证件类型"></common-mheaderfixed>
+第25行包含中文:        list: ['身份证', '护照'],
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accintl/sel-insource.vue
+第3行包含中文:    <common-mheaderfixed title="选择资金来源"></common-mheaderfixed>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accintl/sel-state.vue
+第3行包含中文:    <common-mheaderfixed title="选择州名"></common-mheaderfixed>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accintlNew.vue
+第47行包含中文:      <!--税务编码"-->
+第48行包含中文:      <div class="acc-input-blur taxCode" :style="{display: accountinfo.idType === '护照'||accountinfo.idType === '護照' ? '': 'none'}" >
+第244行包含中文:        const tarCountry = '中国'
+第260行包含中文:        if ((this.accountinfo.idType === '护照' || this.accountinfo.idType === '護照') && !this.accountinfo.taxCode) {
+第288行包含中文:        if (this.accountinfo.idType === '身份证' || this.accountinfo.idType === '身份證') {
+第300行包含中文:        if ((this.accountinfo.idType === '护照' || this.accountinfo.idType === '護照') && (!taxCodeReg.test(this.accountinfo.taxCode) ||this.accountinfo.taxCode.length> 20)) {
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accintltwoNew.vue
+第105行包含中文:        cardPosiTxt: '点击上传身份证正面',
+第106行包含中文:        cardOppoTxt: '点击上传身份证反面',
+第107行包含中文:        cardPassportTxt: '点击上传护照首页',
+第108行包含中文:        cardAddressTxt: '点击上传居住地址证明',
+第142行包含中文:      if(accountinfo&&accountinfo.idType === '护照'){
+第181行包含中文:            console.log('单张: 压缩前...');
+第184行包含中文:            console.log('单张: 压缩成功...');
+第235行包含中文:            console.log('单张: 压缩失败...');
+第238行包含中文:            console.log('单张: 压缩完成...');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/acctobuy.vue
+第21行包含中文:              <!-- 体验金 -->
+第44行包含中文:          <!-- 选择卡券 -->
+第435行包含中文:                     * 上报 FB Pixel
+第490行包含中文:       * 体验进购买成功: 回首页
+第498行包含中文:       * 体验标购买成功: 去投资
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accusNew.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accusthreeNew.vue
+第156行包含中文:            console.log('单张: 压缩前...');
+第159行包含中文:            console.log('单张: 压缩成功...');
+第185行包含中文:            console.log('单张: 压缩失败...');
+第188行包含中文:            console.log('单张: 压缩完成...');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/accustwoNew.vue
+第281行包含中文:            Toast.makeText('网络异常，请稍候重试');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/common/footerButton.vue
+第14行包含中文:    txt: {type:String, default:'下一步'},
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/common/headerNav.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/cps.vue
+第8行包含中文:        <!-- 红包列表 -->
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/extractmoney.vue
+第3行包含中文:    <close-header title='提现'></close-header>
+第6行包含中文:       maxlength="30" v-model.trim="access" require @blur="blurOnly" placeholder="请输入您的PayPal账号">
+第7行包含中文:      <input type="text" :class="{error:nameErr}" maxlength="20" v-model.trim="name" require placeholder="请输入您的姓名">
+第9行包含中文:      <p>您输入的PayPal账号仅允许此凤凰金融账号使用，其他凤凰金融账号将无法提现至该PayPal账号，如果您输入的提现账号无误，提现预计5个工作日左右到账。</p>
+第11行包含中文:      申请提现
+第35行包含中文:        Toast.makeText('paypal账号已经被其他人使用',5);
+第78行包含中文:          return Toast.makeText('请输入paypal账号');
+第82行包含中文:          return Toast.makeText('请输入正确的paypal账号');
+第87行包含中文:          return Toast.makeText('请输入paypal账号请用汉语拼音或英文输入您的姓名');
+第92行包含中文:          return Toast.makeText('请用汉语拼音或英文输入正确的姓名');
+第95行包含中文:          return Toast.makeText('paypal账号已经被其他人使用',5);
+第110行包含中文:        Toast.makeText('提现申请失败，请稍后再试。或联系客服+86 400 076 1166 （北京周一至周五 09:00~21:00）',5);
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/invests.vue
+第3行包含中文:    <common-mheaderfixed title="资产详情"></common-mheaderfixed>
+第13行包含中文:            <span>投资本金(美元)</span>
+第14行包含中文:            <span>预期收益(美元)</span>
+第39行包含中文:             @click="todo()">待汇款</a>
+第42行包含中文:             @click="holding()">持有中</a>
+第45行包含中文:             @click="finished()">已结束</a>
+第48行包含中文:          <span>暂无记录</span>
+第62行包含中文:                    查看汇款教程
+第65行包含中文:                    查看产品合同
+第68行包含中文:                    查看产品合同
+第71行包含中文:                    <span style='color:#007AFF' v-if="_invest.expStatus === '0'||_invest.expStatus ==='3'">提现</span>
+第72行包含中文:                    <span v-else-if="_invest.expStatus === '1'">提现中</span>
+第73行包含中文:                    <span v-else>已提现</span>
+第78行包含中文:                <td class="pd02 tb-gray"><span>投资金额(美元)</span></td>
+第79行包含中文:                <td class="set-center pd02 tb-gray"><span>利率</span></td>
+第92行包含中文:              <span v-if="_invest.interestDate">计息时间：{{_invest.interestDate}}</span>
+第93行包含中文:              <span v-if="_invest.endDate">结束时间：{{_invest.endDate}}</span>
+第204行包含中文:       * 埋点名称
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/invests2.vue
+第244行包含中文:       * 埋点名称
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/mobile/mobile.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/mobile/mobileUS.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/qrcode/upload.vue
+第13行包含中文:          <div>点击上传{{ textMap[key] }}</div>
+第56行包含中文:  idFrontPhoto: '身份证正面',
+第57行包含中文:  idBackPhoto: '身份证反面',
+第58行包含中文:  passportFrontPhoto: '护照正面',
+第59行包含中文:  addressTestimonyPhoto: '居住地址证明',
+第60行包含中文:  usaDriverLicensePhoto: '美国驾照首页',
+第66行包含中文:      title: '上传',
+第112行包含中文:      const message = ret.error.message || '扫码已失效'
+第166行包含中文:        const message = '上传失败: ' + ret.error.message
+第173行包含中文:      const message = textMap[key] + '上传成功'
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/sign.vue
+第303行包含中文:            Toast.makeText('网络异常，请稍候重试');
+第310行包含中文:          Toast.makeText("请在下方空白处手写中文正楷签名");
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/account/tradeHistory.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_3_1/a_index.vue
+第20行包含中文:          <span>习惯用邮件？请联系我们：</span>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_3_1/guess_page.vue
+第110行包含中文:      q1_1:'A 全是专业英文，它们都假装不认识我',
+第111行包含中文:      q1_2:'B 认识大部分单词，但连起来宝宝就懵了',
+第112行包含中文:      q1_3:'C 本人精通八国语言，理财赚遍四海八荒',
+第113行包含中文:      q2_1:'A 0.01% 银行定存，你说我满意吗 ? !',
+第114行包含中文:      q2_2:'B 股市老司机，一天亏 20% 不眨眼',
+第115行包含中文:      q2_3:'C 6% 以上的理财，寻寻觅觅 ing',
+第116行包含中文:      q3_1:'A 优秀如我，却经常被说 unqualified',
+第117行包含中文:      q3_2:'B 华人这么多，为啥理财渠道没几个 ?',
+第118行包含中文:      q3_3:'C 他们说，我还需要再填 5 张 sheet',
+第119行包含中文:      q4_1:'A 刚看了下存款，还差 99 万刀才够资格',
+第120行包含中文:      q4_2:'B 一年要收我 10% 的服务费，我赚啥',
+第121行包含中文:      q4_3:'C 我跟思聪是哥们，专职财务顾问一个连',
+第122行包含中文:      q5_1:'A 1万美金以上，只能告诉我这么多',
+第123行包含中文:      q5_2:'B 10万美金以上，说出来怕吓死你',
+第124行包含中文:      q5_3:'C 我来自天族，我族叫月光族',
+第125行包含中文:      q6_1:'A 5 年以后',
+第126行包含中文:      q6_2:'B 10 年以后',
+第127行包含中文:      q6_3:'C 就在我中彩票的那一天',
+第233行包含中文:            Toast.makeText('恭喜提交成功！');
+第248行包含中文:            Toast.makeText('Sorry，提交不成功，要不要再检查一下？');
+第251行包含中文:          Toast.makeText('Sorry，提交不成功，要不要再检查一下？');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_3_1/index.vue
+第21行包含中文:          <span>习惯用邮件？请联系我们：</span>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_3_1/online_chair/index.vue
+第1行包含中文:<!-- 线上讲座 -->
+第185行包含中文:             Toast.makeText('恭喜报名成功！');
+第188行包含中文:             Toast.makeText('Sorry，报名失败，要不要再检查一下？');
+第191行包含中文:           Toast.makeText('Sorry，报名失败，要不要再检查一下？');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_4/d_19/person.vue
+第8行包含中文:                      <p>快来测试一下昂!</p>
+第9行包含中文:                      <div class="text">《人民的民义》最近十分火热，辣么<i>你的财商和剧中的哪个角色最接近呢？</i></div>
+第37行包含中文:                      <div class="endTitle">适合您的角色是<i>郑西坡</i></div>
+第40行包含中文:                        <p class="endLastText">是保守型的投资者。</p>
+第44行包含中文:                      <div class="endTitle">适合您的角色是<i>侯亮平</i></div>
+第47行包含中文:                        <p class="endLastText">是谨慎型投资人。</p>
+第51行包含中文:                      <div class="endTitle">适合您的角色是<i>高育良</i></div>
+第54行包含中文:                        <p class="endLastText">是稳健型投资人。</p>
+第58行包含中文:                      <div class="endTitle">适合您的角色是<i>祁同伟</i></div>
+第61行包含中文:                        <p class="endLastText">是积极型/进取型投资人。</p>
+第139行包含中文:        title:'测试一下：你的财商和剧中的谁最接近',
+第140行包含中文:        desc:'《人民的民义》最近十分火热，辣么你的财商和剧中的哪个角色最接近呢？',
+第180行包含中文:              self.name = '主席郑西坡'
+第183行包含中文:              self.name = '检察官侯亮平'
+第186行包含中文:              self.name = '书记高育良'
+第189行包含中文:              self.name = '厅长祁同伟'
+第192行包含中文:            self.shareInfo.title=`最适合我的角色是${self.name},你呢？`;
+第193行包含中文:            self.shareInfo.desc = '《人民的名义》最近十分火热，辣么你的财商和剧中的哪个角色最接近呢？快来测试一下吧！'
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_5/d_10/index.vue
+第6行包含中文:        登录
+第33行包含中文:          placeholder="请输入您的手机号码"
+第44行包含中文:            placeholder="请输入短信验证码"
+第60行包含中文:          <span v-if='!smsSent'>获取短信验证码</span>
+第61行包含中文:          <span v-if='smsSent && smsTimeout > 0'>重新获取({{ smsTimeout }})</span>
+第62行包含中文:          <span v-if='smsSent && smsTimeout <= 0'>重新获取</span>
+第71行包含中文:          placeholder="6-20位数字、字母、符号任意两种组合"
+第84行包含中文:          placeholder="请输入您的邮箱地址(选填)"
+第93行包含中文:        <span>注册即表示同意</span>
+第95行包含中文:          《凤凰金融用户注册协议》
+第103行包含中文:          立即注册 多投多得
+第110行包含中文:      <header>活动规则</header>
+第127行包含中文:      <header>不要错过好的投资机会</header>
+第129行包含中文:        立即投资
+第160行包含中文:      title:'投资返现，多投多得',
+第161行包含中文:      rules:['活动时间：2017年 5 月 15 日 – 2017年 6 月 15 日',
+第162行包含中文:      '活动期间，投资者在凤凰金融投资房地产抵押系列年化收益 6% 理财产品或消费信贷系列年化收益 4.5% 理财产品，单笔达到$10,000, 即可获得$50；单笔达到$50,000，即可获得$250；单笔达到$100,000, 即可获得$500；单笔达到$200,000美金，即可获得$1,000。'
+第163行包含中文:      ,'参与本活动所获得的现金奖励将显示在您的 “资产详情” 中，产品到期后将随本金共同返还。',
+第164行包含中文:  '活动期间每位用户只能获得一次现金奖励。',
+第165行包含中文:'本活动最终解释权归凤凰金融所有。'],
+第204行包含中文:     * 领取体验金
+第225行包含中文:      Toast.makeText('领取成功')
+第239行包含中文:     * 已领取, 未投资, 点击操作
+第261行包含中文:      Toast.makeText('未知错误, 请刷新页面重试')
+第265行包含中文:     * 下方的立即领取
+第283行包含中文:     * 注册并领取
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_6/p1.vue
+第6行包含中文:      <!-- 顶部注册 -->
+第31行包含中文:                  placeholder="请输入您的手机号码"
+第42行包含中文:                    placeholder="请输入短信验证码"
+第58行包含中文:                  <span v-if='!smsSent'>获取短信验证码</span>
+第59行包含中文:                  <span v-if='smsSent && smsTimeout > 0'>重新获取({{ smsTimeout }})</span>
+第60行包含中文:                  <span v-if='smsSent && smsTimeout <= 0'>重新获取</span>
+第69行包含中文:                  placeholder="6-20位数字、字母、符号任意两种组合"
+第82行包含中文:                  placeholder="请输入您的邮箱地址(选填)"
+第93行包含中文:                  我已阅读并同意 <router-link :to='{ name: "regAgreement" }'>
+第94行包含中文:                    《凤凰金融网站注册协议》
+第102行包含中文:                  开启美元投资
+第121行包含中文:      <!-- 底部注册 -->
+第146行包含中文:                  placeholder="请输入您的手机号码"
+第157行包含中文:                    placeholder="请输入短信验证码"
+第173行包含中文:                  <span v-if='!smsSent'>获取短信验证码</span>
+第174行包含中文:                  <span v-if='smsSent && smsTimeout > 0'>重新获取({{ smsTimeout }})</span>
+第175行包含中文:                  <span v-if='smsSent && smsTimeout <= 0'>重新获取</span>
+第184行包含中文:                  placeholder="6-20位数字、字母、符号任意两种组合"
+第197行包含中文:                  placeholder="请输入您的邮箱地址(选填)"
+第208行包含中文:                  我已阅读并同意 <router-link :to='{ name: "regAgreement" }'>
+第209行包含中文:                    《凤凰金融网站注册协议》
+第217行包含中文:                  开启美元投资
+第257行包含中文:        title:'美元投资，首选凤凰金融',
+第258行包含中文:        subtitle:['凤凰卫视旗下投资理财平台','预期年化收益 4.5% - 8%','产品期限6 – 12个月','零违约、零坏账、100% 历史兑付率']
+第281行包含中文:        return Toast.makeText('请勾选同意《凤凰金融网站注册协议》');
+第283行包含中文:        return Toast.makeText('请勾选同意《凤凰金融网站注册协议》');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_6/p2.vue
+第8行包含中文:        <p class='subtitle'>让我们更好的了解您的投资需求</p>
+第13行包含中文:            <option value="0" selected disabled>您是否为美国公民？</option>
+第19行包含中文:            <option value="0" selected disabled>您目前投资那些领域？</option>
+第24行包含中文:          <select name="limit" id="" placeholder="您有多少流动的可投资资金？" v-model="canPayLimit" :class="{empty:canPayLimit==0}">
+第25行包含中文:            <option value="0" selected disabled>您有多少流动的可投资资金？</option>paylimitList
+第30行包含中文:          <select name="experience" id="" placeholder="您是否有投资经验？" v-model="experience" :class="{empty:experience==0}">
+第31行包含中文:            <option value="0" selected disabled>您是否有投资经验？</option>
+第36行包含中文:          <select name="experience" id="" placeholder="您的首要投资目标？" v-model="payfirst" :class="{empty:payfirst==0}">
+第37行包含中文:            <option value="0" selected disabled>您的首要投资目标？</option>
+第42行包含中文:          <select name="experience" id="" placeholder="您的风险承受程度？" v-model="venture" :class="{empty:venture==0}">
+第43行包含中文:            <option value="0" selected disabled>您的风险承受程度？</option>
+第61行包含中文:        <a href="javascript:0" @click="handelToSave">下一步</a>
+第81行包含中文:      usaList:[{value:1,desc:'是'},{value:2,desc:'否'}],
+第82行包含中文:      domainList:[{value:1,desc:'房地产'},{value:2,desc:'股市'},{value:3,desc:'银行'},{value:4,desc:'个人退休账户'},{value:5,desc:'其他理财产品'}],
+第83行包含中文:      paylimitList:[{value:1,desc:'小于100,000美元'},{value:2,desc:'100,000-200,000万美元'},
+第84行包含中文:      {value:3,desc:'200,000-500,000万美元'},{value:4,desc:'500,000-1,000,000万美元'},{value:5,desc:'大于1,000,000万美元'}],
+第85行包含中文:      experienceList:[{value:1,desc:'是'},{value:2,desc:'否'}],
+第86行包含中文:      payfirstList:[{value:1,desc:'保值'},{value:2,desc:'增值'},{value:3,desc:'收入'},{value:4,desc:'投机'}],
+第87行包含中文:      ventureList:[{value:1,desc:'较低'},{value:2,desc:'适中'},{value:3,desc:'较高'}],
+第88行包含中文:      secdesc:'依据SEC规定，在投资前我们需要审核您的美国合资人身份。请确认您是否满足以下条件之一：',
+第89行包含中文:      seclist:['我的个人年收入超过20万美元','我与配偶共同年收入超过30万美元','我的净资产达到100万美元','以上三项均不满足'],
+第116行包含中文:        config.usa={qustion:'您是否为美国公民？',answer:usa[0].desc};
+第119行包含中文:        config.domain={qustion:'您目前投资那些领域？',answer:domain[0].desc};
+第122行包含中文:        config.paylimit={qustion:'您有多少流动的可投资资金？',answer:paylimit[0].desc};
+第125行包含中文:        config.experience={qustion:'您是否有投资经验？',answer:experience[0].desc};
+第128行包含中文:            config.payfirst={qustion:'您的首要投资目标？',answer:payfirst[0].desc};
+第131行包含中文:            config.venture={qustion:'您的风险承受程度？',answer:venture[0].desc};
+第135行包含中文:      config.sec={qustion:'sec规定',answer:this.seclist[this.secCurrent]};
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_6/p3.vue
+第14行包含中文:        <div class="concat">若您有任何问题，可通过邮件 <div class='mail' @click="handelToMail('contact@fengjr.com')">contact@fengjr.com</div> 或者<router-link class="call" :to="{name:'recall'}">立即接听服务</router-link> 联络我们。我们专业的投资者关系团队竭诚为您服务。</div>
+第17行包含中文:        <router-link :to="{name:'reg_pdf'}">点击此处查看投资者欢迎礼包</router-link>
+第20行包含中文:        <router-link :to="{name:'subList'}">立即投资</router-link>
+第36行包含中文:      welcom:'欢迎来到凤凰金融，感谢您注册成为投资者。开启美元投资之旅，助您早日实现理财目标，安享稳健收益。',
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_6/p4.vue
+第3行包含中文:    <common-mheaderfixed title="欢迎礼包"></common-mheaderfixed>
+第7行包含中文:          <li @click="jumpItemsOfUse"><a>房地产抵押系列产品说明书</a></li>
+第8行包含中文:          <li @click="jumpPrivateAgreement"><a>消费信贷系列产品说明书</a></li>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/a_8/index.vue
+第20行包含中文:          placeholder="请输入您的手机号码"
+第29行包含中文:        <a href="javascript:0" @click="handelRecevied">领取奖励</a>
+第36行包含中文:            <p>恭喜您!</p>
+第37行包含中文:            <p>{{'获得$'+fastrecived.bookValue+'投资红包'}}</p>
+第99行包含中文:        title:'［凤凰金融］抢房子赢大礼',
+第100行包含中文:        desc:'全民一起抢房大作战！神秘大礼等你赢回家！',
+第128行包含中文:        return global.Toast.makeText('请输入手机号领取');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/exp/landing.vue
+第3行包含中文:    <close-header :title="`领取${ $store.getters.expVirtualAmountFormated }虚拟理财金`">
+第8行包含中文:        登录
+第28行包含中文:          placeholder="请输入您的手机号码"
+第39行包含中文:            placeholder="请输入短信验证码"
+第55行包含中文:          <span v-if='!smsSent'>获取短信验证码</span>
+第56行包含中文:          <span v-if='smsSent && smsTimeout > 0'>重新获取({{ smsTimeout }})</span>
+第57行包含中文:          <span v-if='smsSent && smsTimeout <= 0'>重新获取</span>
+第66行包含中文:          placeholder="6-20位数字、字母、符号任意两种组合"
+第79行包含中文:          placeholder="请输入您的邮箱地址（选填）">
+第86行包含中文:        <span>注册即表示同意</span>
+第88行包含中文:          《凤凰金融用户注册协议》
+第96行包含中文:          注册
+第103行包含中文:        <!-- 已领取: 跳标的, 或提示标募满 -->
+第111行包含中文:        <!-- 调用领取接口 -->
+第121行包含中文:      <header>活动规则及常见问题</header>
+第151行包含中文:          {{ qaShowMore ? '收起' : '展开查看更多' }}
+第158行包含中文:        为什么选择凤凰金融
+第162行包含中文:        <div class="title">资产优质</div>
+第164行包含中文:          底层资产由美国顶尖金融服务机构提供，凤凰金融资产管理及风控团队层层甄选。
+第170行包含中文:        <div class="title">安全保障</div>
+第171行包含中文:        <div class="subtitle">美国证监会SEC合规监管，美国证监会EDGAR资产备案。</div>
+第176行包含中文:        <div class="title">轻松投资</div>
+第177行包含中文:        <div class="subtitle">最快5分钟完成线上投资，中文客服为全球华人提供贴心服务。</div>
+第183行包含中文:        其他人怎么说
+第186行包含中文:        <div style="font-size: 0.4rem; color: #333;">刘一凡</div>
+第188行包含中文:          凤凰金融投资用户
+第191行包含中文:          在我来美国生活的这5年里，互联网金融在中国的发展日新月异，但是在中国以外地区想找到靠谱的在线理财平台却不是那么容易。今年年初，偶然间在凤凰卫视看到了凤凰金融美国房地产抵押系列产品的介绍，于是来凤凰金融的网站详细看看，预期年化收益6%，我觉得还不错，加上对凤凰卫视的信赖，于是果断投资了5万美金，就这样我完成了在凤凰金融的第一笔投资，中文的客户服务很有亲切感，这是一次愉快的投资。
+第199行包含中文:      <header>凤凰金融取得了哪些成绩</header>
+第212行包含中文:      <header>合作机构</header>
+第217行包含中文:      <header>机会有限, 不容错过</header>
+第219行包含中文:        马上领取{{ $store.getters.expVirtualAmountFormated }}虚拟本金
+第246行包含中文:          "title": "50亿",
+第247行包含中文:          "subtitle": "截止到2017年3月，凤凰金融累积交易金额已超过50亿美元。"
+第250行包含中文:          "title": "2.5亿",
+第251行包含中文:          "subtitle": "截止到2017年3月，凤凰金融累积为用户赚取收益超过2.5亿美元。"
+第254行包含中文:          "title": "350万",
+第255行包含中文:          "subtitle": "全球已有超过350万用户选择凤凰金融，你还在等什么？"
+第261行包含中文:          q: '什么是虚拟本金？',
+第263行包含中文:            '虚拟本金是凤凰金融给予未完成首次投资用户的一种福利，',
+第264行包含中文:            '是凤凰金融为特定用户提供投资体验的虚拟本金，',
+第265行包含中文:            '当用户在凤凰金融平台中完成注册后，即可领取$20,000虚拟本金，',
+第266行包含中文:            '虚拟投资即可获得$3.28收益。（2017年5月4日开始）',
+第270行包含中文:          q: '如何购买虚拟理财产品？',
+第272行包含中文:            '第一步您需要注册领取$20,000虚拟本金；',
+第273行包含中文:            '第二步您需要根据指引完成基本资料填写并签字购买虚拟理财产品；',
+第274行包含中文:            '第三步您可以在“我的资产”中查看您的收益。'
+第278行包含中文:          q: '虚拟本金我能投多少？得到的收益有多少？怎么才能领到虚拟投资产生的收益？',
+第280行包含中文:            '当您获得虚拟本金后仅能一次性投资$20,000。 ',
+第281行包含中文:            '虚拟投资理财产品期限为1天，年化收益率为6%，您将获得$3.28实际收益。 ',
+第282行包含中文:            '计息方式为 虚拟本金*利率*期限/365: $20,000 x 6%*1/365=$3.28 到期后$3.28',
+第283行包含中文:            '实际收益将存入您的凤凰金融理财账户，您可登入【个人中心】查看。',
+第284行包含中文:            '此时您可以将$3.28提现，我们将通过您留下的Paypal账户转账给您。',
+第285行包含中文:            '您也可以完成一笔实际投资，获得奖励金额$32.8 (虚拟投资收益$3.28的10倍)。 ',
+第289行包含中文:          q: '我已经注册很久了，现在我还能得到体验金吗？ ',
+第291行包含中文:            '目前虚拟本季的福利只针对2017年5月4日以后新注册凤凰金融平台的用户',
+第292行包含中文:            '或已注册但是未完成首次投资的用户。',
+第349行包含中文:        return '立即领取'
+第354行包含中文:     * 主按钮的 ga 事件
+第355行包含中文:     * 体验金站内页－未登录－领取	m_haiwai_us_experience_inlandingpage_get
+第356行包含中文:     * 体验金站内页－已登录－投资	m_haiwai_us_experience_inlandingpage_invest
+第358行包含中文:     * 体验金站外页－未登录－领取	m_haiwai_us_experience_outlandingpage_get
+第359行包含中文:     * 体验金站外页－已登录－投资	m_haiwai_us_experience_outlandingpage_invest
+第385行包含中文:     * 领取体验金
+第406行包含中文:      Toast.makeText('领取成功')
+第420行包含中文:     * 已领取, 未投资, 点击操作
+第442行包含中文:      Toast.makeText('未知错误, 请刷新页面重试')
+第446行包含中文:     * 下方的立即领取
+第461行包含中文:     * 注册并领取
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/exp/receive-done.vue
+第11行包含中文:          立即投资
+第35行包含中文:        return '恭喜您，领取成功！'
+第39行包含中文:        return '恭喜您, 已注册成功!'
+第46行包含中文:      return `${ this.$store.getters.expVirtualAmountFormated }虚拟本金领取成功，投资赚实际收益`
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/giving_feedback/index.vue
+第12行包含中文:          <span>投资 {{cardOne.pro}}% 美国地产抵押系列</span>
+第13行包含中文:          <span>限时抢大礼</span>
+第15行包含中文:        <p class="line">一</p>
+第20行包含中文:              <p>预计年化收益</p>
+第23行包含中文:              <p class="val"><span class="num">{{cardOne.time}}</span>个月</p>
+第24行包含中文:              <p>产品期限</p>
+第27行包含中文:              <p class="val"><span class="num">{{cardOne.money}}</span>美元</p>
+第28行包含中文:              <p>起投金额</p>
+第31行包含中文:          <div class="detail_sub" @click="buy(1)">立即购买</div>
+第36行包含中文:            <li>投资返现奖励的礼品卡将于2017年12月31日23:59前发放完毕。（美西时间）</li>
+第37行包含中文:            <li>投资返现奖励仅限投资 {{cardOne.pro}}%美国房产抵押系列美元资产单笔达到投资额度，即可享受投资返现福利。亚马逊礼品卡和星巴克礼品卡任选其一。</li>
+第38行包含中文:            <li>奖励领取：投资成功后，礼品卡使用码将以邮件的形式发送至您的邮箱。</li>
+第39行包含中文:            <li>本活动不可与凤凰金融平台其他福利叠加使用。</li>
+第40行包含中文:            <li>本活动最终解释权为凤凰金融所有。如有疑问，请联系凤凰金融海外平台客服。</li>
+第46行包含中文:          <span>美国房产抵押系列 {{cardTwo.pro}}% 会员加息福利</span>
+第48行包含中文:        <p class="line">一</p>
+第53行包含中文:              <p>预计年化收益</p>
+第56行包含中文:              <p class="val"><span class="num">{{cardTwo.time}}</span>个月</p>
+第57行包含中文:              <p>产品期限</p>
+第60行包含中文:              <p class="val"><span class="num">{{cardTwo.money}}</span>美元</p>
+第61行包含中文:              <p>起投金额</p>
+第64行包含中文:          <div class="detail_sub" @click="buy(2)">立即购买</div>
+第69行包含中文:            <li>活动截止时间：2017年12月31日 23:59 (美西时间)</li>
+第70行包含中文:            <li>投资{{cardTwo.pro}}%美国房产抵押系列即可享有会员加息福利，单笔投资金额达到投资范围即可享相应的投资加息奖励。</li>
+第71行包含中文:            <li>会员加息福利不与凤凰金融平台其他福利叠加使用。</li>
+第72行包含中文:            <li>奖励领取：单笔投资金额达到奖励范围时，平台自动下发加息劵，当比投资即可使用。</li>
+第73行包含中文:            <li>本活动最终解释权为凤凰金融所有。如有疑问，请联系凤凰金融海外平台客服。</li>
+第100行包含中文:      titles: ['产品简介', '项目结构', '安全保障', '标的实例', '平台实力'],
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/newcustomer/index.vue
+第6行包含中文:      <!-- 顶部注册 -->
+第28行包含中文:                  placeholder="请输入您的手机号码"
+第40行包含中文:                    placeholder="请输入短信验证码"
+第57行包含中文:                  <span v-if='!smsSent'>获取验证码</span>
+第58行包含中文:                  <span v-if='smsSent && smsTimeout > 0'>重新获取({{ smsTimeout }})</span>
+第59行包含中文:                  <span v-if='smsSent && smsTimeout <= 0'>重新获取</span>
+第68行包含中文:                  placeholder="6-20位数字、字母、符号任意两种组合"
+第82行包含中文:                  placeholder="请输入您的邮箱地址"
+第96行包含中文:                  placeholder="输入好友邮箱帮助好友赚取收益"
+第108行包含中文:                  我已阅读并同意 <router-link :to='{ name: "regAgreement" }'>
+第109行包含中文:                    《凤凰金融网站注册协议》
+第117行包含中文:                  立即领取2,000美元红包
+第155行包含中文:            点击注册领取红包
+第159行包含中文:        <div class="erwei_title">凤凰金融国际微信服务号</div>
+第238行包含中文:        return Toast.makeText('请勾选同意《凤凰金融网站注册协议》');
+第240行包含中文:        return Toast.makeText('请勾选同意《凤凰金融网站注册协议》');
+第291行包含中文:        global.Toast.makeText('未登录，请先登录！');
+第314行包含中文:          global.Toast.makeText('领取成功！');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/newcustomer/index_2.vue
+第6行包含中文:      <!-- 顶部注册 -->
+第28行包含中文:                  placeholder="请输入您的手机号"
+第41行包含中文:                  placeholder="请您设置密码"
+第54行包含中文:                    placeholder="请您输入短信验证码"
+第71行包含中文:                  <span v-if='!smsSent'>获取验证码</span>
+第72行包含中文:                  <span v-if='smsSent && smsTimeout > 0'>重新获取({{ smsTimeout }})</span>
+第73行包含中文:                  <span v-if='smsSent && smsTimeout <= 0'>重新获取</span>
+第84行包含中文:                  placeholder="请输入您的邮箱地址（选填）"
+第98行包含中文:                  placeholder="输入好友邮箱帮助好友赚取利益（选填）"
+第110行包含中文:                  我已阅读并同意 <router-link :to='{ name: "regAgreement" }'>
+第111行包含中文:                    《凤凰金融网站注册协议》
+第119行包含中文:                  立即购买
+第143行包含中文:          <div class="subject_title">2大特权同时享</div>
+第145行包含中文:            <!-- <div class="subject_subtitle">豪礼新手标 新用户专享</div> -->
+第151行包含中文:                <div class="bottom_text">预期年化收益</div>
+第158行包含中文:                <div class="bottom_text">产品期限</div>
+第163行包含中文:                  <span class="value">{{mininumInvestAmountStr}}</span><span class="unit">美元</span>
+第165行包含中文:                <div class="bottom_text">起投金额</div>
+第179行包含中文:          <div class="text">新老客户同时享</div>
+第182行包含中文:        <div class="pack_desc">仅限针对预期年化收益<span class="red">6%</span>房产抵押美元理财产品，投资即得投资红包，累积高达<span class="red">2000美元</span>。</div>
+第185行包含中文:            <th class="thead">单笔投资金额（美元）</th>
+第186行包含中文:            <th class="thead last">红包（美元）</th>
+第214行包含中文:              <td>100000以上</td>
+第223行包含中文:          <a href="javascript:0" @click="handelGetPack" ga-event='m_oversea_newuser_getthree'>立即领取</a>
+第235行包含中文:            扫描左侧二维码并关注“<span class="red">凤凰金融国际服务号</span>”，获得最新投资资讯。如果您有任何问题，欢迎留言，为您提供免费中文专业客户服务。
+第240行包含中文:          <div class="text">活动规则</div>
+第246行包含中文:        <!-- <p class="bottom_tel">美国地区：+1 800-413-8973 【09:00-18:00美西时间】</p>
+第247行包含中文:        <p class="bottom_tel last">中国大陆：+86 400-076-1166 【09:00-21:00北京时间】</p> -->
+第288行包含中文:        text:'超低投资成本',
+第289行包含中文:        subtext:'最低5000美元起投，最快五分钟线上投资，同时免费享受全程中文专业VIP投资咨询服务。',
+第292行包含中文:        text:'资产稳健增值',
+第293行包含中文:        subtext:'业界最高技术全时监控平台安全，历史兑付率达到100%，为您的资产安全保驾护航。',
+第296行包含中文:        text:'精英教育储备',
+第297行包含中文:        subtext:'按哈佛本科年均花费$72500计算，现在只需投资$55000，5年后孩子完成教育储备。',
+第300行包含中文:      pack_descs:['当用户投资达到指定金额，即可获得相应红包（即为理财券）。可通过“卡券中心”查看。',
+第301行包含中文:      '理财券在投资时可计入本金，投资到期后，连本带息一同返还。',
+第302行包含中文:      '此活动适用于所有凤凰金融国际平台的用户。',
+第303行包含中文:      '新用户不用手动领取红包，注册成功后红包自动发放至您的账户。',
+第304行包含中文:      '老用户请点击下方“立即领取”，登录成功后，请到卡券中心查看红包详情 。'],
+第305行包含中文:      activity_desc:['活动期间，用户在凤凰金融海外平台投资仅限6%的房产抵押系列产品，单笔投资达到指定金额档位，即可在“卡券中心”领取红包。每张红包可使用一次，可投资多笔。',
+第306行包含中文:'新用户指未在凤凰金融海外平台投资海外资产的用户；老用户指已在凤凰金融海外平台投资海外资产的用户。',
+第307行包含中文:'活动期间，新用户投资新手标期满后，再次复投6%优质美元理财产品，可使用相应金额投资红包，并且只需要在新手标本息基础上补齐投资6%理财产品的差额即可。同时，可另获得单笔30美元手续费补贴；手续费补贴将以美元的形式发放到您的凤凰金融账户，在投资到期后，连同本息一同返还到您的账户。',
+第308行包含中文:'参加本次活动使用了红包后，使用状态可在您的“卡券中心”中查看，投资到期后，连本带息一同返还。',
+第309行包含中文:'本活动最终解释权为凤凰金融所有。如有任何疑问，请联系凤凰金融国际客服热线。']
+第353行包含中文:        return Toast.makeText('请勾选同意《凤凰金融网站注册协议》');
+第355行包含中文:        return Toast.makeText('请勾选同意《凤凰金融网站注册协议》');
+第384行包含中文:        global.Toast.makeText('恭喜您！领取成功');
+第426行包含中文:        global.Toast.makeText('恭喜您！领取成功');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/newcustomer/index_d.vue
+第6行包含中文:      <!-- 顶部注册 -->
+第20行包含中文:        <div class="header">红包详情</div>
+第26行包含中文:            <th class="thead">单笔投资金额（美元）</th>
+第27行包含中文:            <th class="thead">红包（美元）</th>
+第55行包含中文:              <td>100000以上</td>
+第91行包含中文:        title:'仅限针对房地产抵押6.0%产品，当用户投资达到指定金额，即可获得相应红包（即为理财券）。可通过“卡券中心”进行领取',
+第92行包含中文:        info:'* 理财券在投资时可以计入本金，投资到期后，连本带息一同返还。',
+第93行包含中文:        info1: '* 此活动适用于所有凤凰金融国际平台的用户。',
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/newcustomer/paypack.vue
+第3行包含中文:    <common-backheader :isshow="isshowback" pageTitle="红包列表"></common-backheader>
+第12行包含中文:              <th class="thead">单笔投资金额（美元）</th>
+第13行包含中文:              <th class="thead">红包（美元）</th>
+第41行包含中文:                <td>100000以上</td>
+第50行包含中文:            <a href="javascript:0" @click="handelGetPack">立即领取2,000美元红包</a>
+第54行包含中文:        <div class="telpanel" @click.stop="haneltel('+18004138973')">如有任何疑问，请拨打客服热线 800-413-8973</div>
+第69行包含中文:        title:'仅限针对房地产抵押6.0%产品，当用户投资达到指定金额，即可获得相应红包（即为理财券）。可通过“卡券中心”进行领取',
+第70行包含中文:        info:'* 理财券在投资时可以计入本金，投资到期后，连本带息一同返还。',
+第71行包含中文:        info1: '* 此活动适用于所有凤凰金融国际平台的用户。',
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/north_us_agent/index.vue
+第14行包含中文:            <p class="p2">加息券</p>
+第17行包含中文:            <span class="desp">投资全场任一理财产品可用，新手标除外</span>
+第19行包含中文:              <span class="stock_num">当前已有{{personNum}}人成功领取加息券</span>
+第20行包含中文:              <span class="stock_btn" v-if="receive===0" @click="buy(1)">立即领取</span>
+第21行包含中文:              <span class="stock_btn_no" v-if="receive===1">新人专享</span>
+第22行包含中文:              <span class="stock_btn_no" v-if="receive===2">您已领取</span>
+第28行包含中文:        <div class="title">美国房产抵押系列 优质标的推荐</div>
+第29行包含中文:        <p class="line">一</p>
+第34行包含中文:              <p>预计年化收益</p>
+第37行包含中文:              <p class="val"><span class="num">{{cardOne.time}}</span>个月</p>
+第38行包含中文:              <p>产品期限</p>
+第41行包含中文:              <p class="val"><span class="num">{{cardOne.money}}</span>美元</p>
+第42行包含中文:              <p>起投金额</p>
+第45行包含中文:          <div class="detail_sub" @click="buy(1)">立即购买</div>
+第51行包含中文:              <p>预计年化收益</p>
+第54行包含中文:              <p class="val"><span class="num">{{cardTwo.time}}</span>个月</p>
+第55行包含中文:              <p>产品期限</p>
+第58行包含中文:              <p class="val"><span class="num">{{cardTwo.money}}</span>美元</p>
+第59行包含中文:              <p>起投金额</p>
+第62行包含中文:          <div class="detail_sub" @click="buy(2)">立即购买</div>
+第66行包含中文:            <li>加息券有效使用截止日期为：2018年12月31日23:59（美西时间）</li>
+第67行包含中文:            <li>领取：在本页面首次注册凤凰金融的用户，自动获得一张加息券奖励。</li>
+第68行包含中文:            <li>查询：注册成功后，请登录您的账户，在‘卡券中心’查询。</li>
+第69行包含中文:            <li>使用：在投资页面内，您可以选择使用此加息券。投资到期后，加息收益连同本息收益一同返还到您的账户。</li>
+第70行包含中文:            <li>此加息券仅限一笔投资使用，且本活动不可与凤凰金融平台其他福利叠加使用。</li>
+第71行包含中文:            <li>本活动最终解释权为凤凰金融所有。如有疑问，请联系凤凰金融海外平台客服。</li>
+第98行包含中文:      titles: ['产品简介', '项目结构', '安全保障', '标的实例', '平台实力'],
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/preheat/assetactive.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/preheat/luckactive.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/preheat/preheat.vue
+第7行包含中文:        <span class="txtbg">{{spTime.leftDay}}</span><span class="txt"> 天 </span>
+第8行包含中文:        <span class="txtbg">{{spTime.leftHour}}</span><span class="txt"> 时 </span>
+第9行包含中文:        <span class="txtbg">{{spTime.leftMinute}}</span><span class="txt"> 分 </span>
+第10行包含中文:        <span class="txtbg">{{spTime.leftSecond}}</span><span class="txt"> 秒 </span>
+第72行包含中文:        pretitle: '剩余时间:',
+第93行包含中文:          throw new Error('获取服务器时间出错')
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/index.vue
+第17行包含中文:        <vtitle name='凤凰金融房地产固定收益理财'></vtitle>
+第21行包含中文:          <span class="rate2 color-999999">预期年化收益</span>
+第27行包含中文:            <span>旧房翻修，转手获利市场火爆</span>
+第31行包含中文:            <span>传统银行贷款空白,翻修商短期资金周转需求旺盛</span>
+第35行包含中文:            <span>对接有资质专业翻修商，一万美金起投</span>
+第41行包含中文:        <vtitle name='欢迎拨打免费华语咨询专线'></vtitle>
+第48行包含中文:        <span class="duration color-999999">周一至周五09:00-18:00(美西时间)</span>
+第51行包含中文:          <span class="font-size-28 ln color-333333">微信中可长按二维码添加投资顾问微信号</span>
+第52行包含中文:          <span class="font-size-28 ln color-333333">随时与我们联系！</span>
+第57行包含中文:          <span class="display-block">习惯用邮件？请联系我们：
+第65行包含中文:        <vtitle name="您的专属理财产品"></vtitle>
+第77行包含中文:                <span class="fright ptime color-333333">{{item.mcount}}{{item.munit}}起</span>
+第94行包含中文:        <vtitle name='免费咨询预约'></vtitle>
+第96行包含中文:          <span class="display-block">欢迎给我们直接电话，普通话粤语畅快沟通。</span>
+第97行包含中文:          <span class="display-block">或者选择您方便接听电话的时间，我们将尽快与您联系。</span>
+第102行包含中文:              <td>姓名 <br><span class="font-size-24 color-999999 line-height-36">(英文/拼音)</span></td>
+第103行包含中文:              <td><input type="email" name="name" placeholder="请输入姓名的汉语拼音或英文" v-model="userinfo.name"></td>
+第106行包含中文:              <td>电子邮件地址</td>
+第107行包含中文:              <td><input type="email" name="email" placeholder="请输入您的电子邮箱地址" v-model="userinfo.email"></td>
+第110行包含中文:              <td>主要联系电话</td>
+第117行包含中文:                style="width: 75%" placeholder="请输入您的电话号码"
+第122行包含中文:              <td>问题描述</td>
+第123行包含中文:              <td><input type="text" name="question" placeholder="请描述您的问题" v-model="userinfo.question"></td>
+第128行包含中文:          <span>*预约时间均为美国西部时间，请核对您的当地时间注意时差区别。</span>
+第149行包含中文:        <vtitle name='投资有礼'></vtitle>
+第151行包含中文:          <span>1.填写真实信息，完成开户；</span>
+第152行包含中文:          <span>2.投资房地产固定收益理财产品达到$10000美金；</span>
+第153行包含中文:          <span>即可获得一张$50美元的Amazon购物卡，多投多送，不设限！</span>
+第157行包含中文:          <span>活动时间：1月16日-2月16日</span>
+第165行包含中文:        <vtitle name='隐私申明'></vtitle>
+第167行包含中文:          我们竭力保护您个人资料的隐私权，不会给任何人出售、出租或者授予这个资料的使用权。
+第168行包含中文:          我们可能会使用您的个人资料来告知您有用的产品和服务，并发送电子通信，例如简报、新客户信息、活动邀请和优惠。
+第169行包含中文:          您随时可以取消订阅凤凰金融的任何促销电子邮件通信。更多讯息请参阅我们的隐私声明。
+第213行包含中文:      committxt: '马上提交',
+第214行包含中文:      investtxt: '立即投资',
+第298行包含中文:        return Toast.makeText('请输入姓名的汉语拼音或英文');
+第302行包含中文:        return Toast.makeText('请输入您的电子邮箱地址');
+第306行包含中文:        return Toast.makeText('请输入您的电话号码');
+第310行包含中文:        return Toast.makeText('请描述您的问题');
+第317行包含中文:        return Toast.makeText('请输入正确的姓名的汉语拼音或英文');
+第321行包含中文:        return Toast.makeText('请输入正确的电子邮箱地址');
+第325行包含中文:        return Toast.makeText('请输入正确的电话号码');
+第329行包含中文:        return Toast.makeText('请选择预约时间');
+第341行包含中文:      userinfo.lang = '普通话';
+第349行包含中文:           * 预约成功: InitiateCheckout
+第354行包含中文:          Toast.makeText(`感谢您选择接听服务，我们将于${times.year()}年${times.month()+1}月${times.date()}日${times.hour()}时${times.minute()}分向您致电`)
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/v-button.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/v-footer.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/v-gray.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/v-line.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/v-title.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/vip/index.vue
+第9行包含中文:          <router-link :to="{name:'subList'}">开启美元投资</router-link>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/vip/vip_out.vue
+第6行包含中文:      <!-- 顶部注册 -->
+第28行包含中文:                  placeholder="请输入您的手机号码"
+第39行包含中文:                    placeholder="请输入短信验证码"
+第55行包含中文:                  <span v-if='!smsSent'>获取短信验证码</span>
+第56行包含中文:                  <span v-if='smsSent && smsTimeout > 0'>重新获取({{ smsTimeout }})</span>
+第57行包含中文:                  <span v-if='smsSent && smsTimeout <= 0'>重新获取</span>
+第66行包含中文:                  placeholder="6-20位数字、字母、符号任意两种组合"
+第79行包含中文:                  placeholder="请输入您的邮箱地址(选填)"
+第90行包含中文:                  我已阅读并同意 <router-link :to='{ name: "regAgreement" }'>
+第91行包含中文:                    《凤凰金融网站注册协议》
+第99行包含中文:                  开启美元投资
+第118行包含中文:      <!-- 底部注册 -->
+第143行包含中文:                  placeholder="请输入您的手机号码"
+第154行包含中文:                    placeholder="请输入短信验证码"
+第170行包含中文:                  <span v-if='!smsSent'>获取短信验证码</span>
+第171行包含中文:                  <span v-if='smsSent && smsTimeout > 0'>重新获取({{ smsTimeout }})</span>
+第172行包含中文:                  <span v-if='smsSent && smsTimeout <= 0'>重新获取</span>
+第181行包含中文:                  placeholder="6-20位数字、字母、符号任意两种组合"
+第194行包含中文:                  placeholder="请输入您的邮箱地址(选填)"
+第205行包含中文:                  我已阅读并同意 <router-link :to='{ name: "regAgreement" }'>
+第206行包含中文:                    《凤凰金融网站注册协议》
+第214行包含中文:                  开启美元投资
+第254行包含中文:        title:'美元投资，首选凤凰金融',
+第255行包含中文:        subtitle:['凤凰卫视旗下投资理财平台','预期年化收益 4.5% - 8%','产品期限6 – 12个月','零违约、零坏账、100% 历史兑付率']
+第278行包含中文:        return Toast.makeText('请勾选同意《凤凰金融网站注册协议》');
+第280行包含中文:        return Toast.makeText('请勾选同意《凤凰金融网站注册协议》');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/coupon/detail.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/coupon/list.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/coupon/single.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/extract/index.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/home/index.vue
+第3行包含中文:  <!-- 弹出接听服务窗口 -->
+第42行包含中文:    <!-- banner标题与描述 -->
+第48行包含中文:    <!-- 理财标题 -->
+第62行包含中文:          <span class="rightnum">{{loan.term}}&nbsp;|&nbsp;{{loan.mcount}}{{loan.munit}}起</span>
+第76行包含中文:    <!-- 产品核心优势 -->
+第78行包含中文:      <span class="center-text title">产品核心优势</span>
+第79行包含中文:      <p class="center-text grey subtitle" style="font-size:0.28rem">美国房地产系列固定收益理财</p>
+第84行包含中文:        <span class="adv-title">资产优势</span>
+第87行包含中文:        <p>美国顶级资产合作机构</p>
+第88行包含中文:        <p>联合三方风控层层甄选</p>
+第95行包含中文:        <span class="adv-title">安全保障</span>
+第98行包含中文:        <p>六大安全保障机制</p>
+第99行包含中文:        <p>美国证券法监管标准</p>
+第106行包含中文:        <span class="adv-title">收益稳健</span>
+第109行包含中文:        <p>成熟资本市场</p>
+第110行包含中文:        <p>安享投资回报</p>
+第117行包含中文:        <span class="adv-title">轻松投资</span>
+第120行包含中文:        <p>10000美元起投</p>
+第121行包含中文:        <p>最快5分钟完成投资</p>
+第128行包含中文:    <!-- 客户与服务-->
+第148行包含中文:          <span>预约服务：</span>
+第149行包含中文:          <span class="callTel" @click="clickModal()" ga-event='m_haiwai_us_home_consult_click_img'>电话预约</span>
+第332行包含中文:  /**客户服务*/
+第348行包含中文:  /**产品优势**/
+第391行包含中文:  /**理财产品列表**/
+第436行包含中文:  /**列表标的描述*/
+第489行包含中文:  /**电话咨询**/
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/home/index2.vue
+第7行包含中文:      <p>有问题?</p>
+第8行包含中文:      <p>点击这里</p>
+第31行包含中文:    <!-- 体验金 -->
+第53行包含中文:      <!--只有一条数据-->
+第77行包含中文:      <!-- 具有多条数据 -->
+第108行包含中文:      <!-- 只有一条数据 -->
+第131行包含中文:      <!-- 具有多条数据 -->
+第284行包含中文:  /**首页banner**/
+第350行包含中文:  /*体验金*/
+第394行包含中文:  /**历史面板**/
+第425行包含中文:  /**标的列表**/
+第457行包含中文:  /*标的介绍*/
+第494行包含中文:  /**标的介绍说明**/
+第527行包含中文:  /**标的底部按钮设置**/
+第551行包含中文:  /*下标TODO*/
+第565行包含中文:/**产品优势*/
+第612行包含中文:/*接听服务*/
+第729行包含中文:/**底部跳转*/
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/home/index3.vue
+第7行包含中文:      <p>有问题?</p>
+第8行包含中文:      <p>点击这里</p>
+第30行包含中文:        <!-- 体验金 -->
+第58行包含中文:      <div class="header">为您推荐的理财产品</div>
+第60行包含中文:      <!-- 房地产 -->
+第77行包含中文:                <span class="term">期限{{item.term}}</span>
+第82行包含中文:            <div class="col">{{item.acmount}}起投</div>
+第88行包含中文:      <!-- 消费贷 -->
+第104行包含中文:                  <span class="term">期限{{item.term}}</span>
+第109行包含中文:                <div class="col">{{item.acmount}}起投</div>
+第115行包含中文:    <!-- 更多产品 -->
+第117行包含中文:      <span class="showtext" @click.prevent="handelToSubList">查看更多产品</span>
+第142行包含中文:    <!-- 资金安全 -->
+第144行包含中文:      <div class="header">资金安全</div>
+第162行包含中文:      <div class="header">客户服务</div>
+第177行包含中文:      <div class="header">媒体报道</div>
+第237行包含中文:          text:'凤凰金融理财产品受',
+第238行包含中文:          text1:'SEC(美国证监会)',
+第239行包含中文:          text2:'和IRS(美国国税局)双重监管'
+第242行包含中文:          text:'用户资产存管于美国银行 First Republic Bank'
+第245行包含中文:          text:'客户资产存管银行投保了由FDIC （联邦存款保险公司）发行的存款保险'
+第336行包含中文:  /**首页banner**/
+第406行包含中文:  /**上部面板*/
+第415行包含中文:  /*体验金*/
+第456行包含中文:  /**历史面板**/
+第500行包含中文:  /**标的列表**/
+第548行包含中文:  /*标的介绍*/
+第614行包含中文:/**产品优势*/
+第670行包含中文:/**安全保障**/
+第725行包含中文:/*接听服务*/
+第829行包含中文:/**底部跳转*/
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/home/index4.vue
+第42行包含中文:      <!-- 新手标 -->
+第69行包含中文:      <!-- 房地产 -->
+第96行包含中文:      <!-- 消费贷 -->
+第123行包含中文:    <!-- 更多产品 -->
+第138行包含中文:<!-- 投资资质 -->
+第145行包含中文:    <!-- 资金安全 -->
+第165行包含中文:      <div class="header">客户服务</div>
+第414行包含中文:  /**首页banner**/
+第482行包含中文:  /**上部面板*/
+第491行包含中文:  /*体验金*/
+第532行包含中文:  /**历史面板**/
+第570行包含中文:  /**标的列表**/
+第619行包含中文:  /*标的介绍*/
+第685行包含中文:/**产品优势*/
+第741行包含中文:/**安全保障**/
+第805行包含中文:/*凤金之家*/
+第918行包含中文:/**底部跳转*/
+第997行包含中文:  /*投资牌照*/
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/home/subject_list.vue
+第3行包含中文:    <common-backheader :isshow="isshowback" pageTitle="全部产品"></common-backheader>
+第9行包含中文:           @click="handleClickTab(1)">房产抵押系列</a>
+第12行包含中文:           @click="handleClickTab(2)">消费信贷系列</a>
+第30行包含中文:                  <span class="term">期限{{item.term}}</span>
+第35行包含中文:              <div class="col">${{item.mininumInvestAmount}}起投</div>
+第98行包含中文:/**Tab标签**/
+第113行包含中文:/**标的列表**/
+第162行包含中文:/*标的介绍*/
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/_mailContract/notice.vue
+第12行包含中文:        确定
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/agreement.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/bank.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/detail.vue
+第11行包含中文:            <span class="head-panel-subtitle" v-if="subject.region!==1">{{subject.region==2?'(美国合格投资人专享)':'(国际投资人专享)'}}</span>
+第23行包含中文:            <div class="one" ><span class="title">预期年化收益率</span></div>
+第24行包含中文:            <div class="second" ><span class="title">产品期限</span></div>
+第29行包含中文:      <!-- 产品详情 -->
+第32行包含中文:          <span>产品详情</span>
+第34行包含中文:            <span>更多</span>
+第41行包含中文:            <div class="one-column">收益方式:</div>
+第45行包含中文:            <div class="one-column">项目总额:</div>
+第49行包含中文:            <div class="one-column">剩余可投:</div>
+第53行包含中文:            <div class="one-column">起投金额:</div>
+第57行包含中文:            <div class="one-column">递增金额:</div>
+第61行包含中文:            <div class="one-column">投资保障:</div>
+第67行包含中文:      <!-- 安全保障 -->
+第70行包含中文:          <span>安全保障</span>
+第72行包含中文:            <span>更多</span>
+第81行包含中文:              <span>专业风控</span>
+第85行包含中文:                <span>机构保障</span>
+第89行包含中文:                <span>透明合规</span>
+第95行包含中文:              <span>法律保障</span>
+第99行包含中文:                <span>资金安全</span>
+第103行包含中文:                <span>信息安全</span>
+第110行包含中文:      <!-- 抵押详情 -->
+第113行包含中文:          <span>抵押详情</span>
+第115行包含中文:            <span>更多</span>
+第126行包含中文:              <span class="title">房产价值:</span>
+第128行包含中文:              <span class="title">抵押比率:</span>
+第132行包含中文:              <span class="title">借款目的:</span>
+第141行包含中文:                    <span class="title">房产价值:</span>
+第143行包含中文:                    <span class="title">抵押比率:</span>
+第147行包含中文:                    <span class="title">借款目的:</span>
+第155行包含中文:      <!-- 产品合同 -->
+第158行包含中文:          <span>产品合同</span>
+第165行包含中文:      <!-- 常见问题 -->
+第168行包含中文:            <span>常见问题</span>
+第234行包含中文:      Toast.makeText('该产品为美国合格投资人专享产品');
+第236行包含中文:      Toast.makeText('该产品为国际投资人专享产品');
+第431行包含中文:/**安全保障图片**/
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/detail2.vue
+第178行包含中文:          <!-- 消费贷安全保障 -->
+第683行包含中文:  /**安全保障图片**/
+第752行包含中文:  * 底部固定按钮
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/account.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/finance.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/index.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/law.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/new.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/tax.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/mailContract.vue
+第147行包含中文:        vm.$store.commit('USER_SELECT_COUNTRY', ['中国', '86', 'cn', 'zhong guo'])
+第393行包含中文: * 动画
+第412行包含中文:<!-- 开户使用的文本框 -->
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/mortgageDetail.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/problemDetail.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/protodetail.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/safeDetail.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/subjectDetail.vue
+第4行包含中文:      <common-backheader :isshow="true" pageTitle="产品详情"></common-backheader>
+第10行包含中文:            <div class="one-column">产品名称:</div>
+第14行包含中文:            <div class="one-column">产品利率:</div>
+第18行包含中文:            <div class="one-column">产品期限:</div>
+第22行包含中文:            <div class="one-column">起息日期:</div>
+第26行包含中文:            <div class="one-column">到期日期:</div>
+第30行包含中文:            <div class="one-column">认购规模:</div>
+第34行包含中文:            <div class="one-column">起投金额:</div>
+第38行包含中文:            <div class="one-column">递增金额:</div>
+第42行包含中文:            <div class="one-column">收益方式:</div>
+第46行包含中文:            <div class="one-column">资金托管:</div>
+第52行包含中文:          <div class="flex-heading no-bottom no-border"><span class="bold">产品介绍:</span></div>
+第57行包含中文:            <div class="flex-heading no-bottom no-border"><span class="bold">认购准备:</span></div>
+第66行包含中文:            <div class="flex-heading no-border no-bottom"><span class="bold">认购期限:</span></div>
+第75行包含中文:            <div class="flex-heading no-border no-bottom"><span class="bold">汇款说明:</span></div>
+第84行包含中文:            <div class="flex-heading no-border no-bottom"><span class="bold">回款说明:</span></div>
+第93行包含中文:            <div class="flex-heading no-border no-bottom"><span class="bold">投资保障:</span></div>
+第103行包含中文:      <mbutton txt="电话咨询" :status="true" :metion="false" @btnClick="handleShowTel()" ga-event='m_haiwai_us_product_menu01_click_btn_consult'>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/subjectDetail2.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/button.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/call.vue
+第39行包含中文:      selectedCountry:'美国',
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/callResult.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/mobile.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/sitecall/dial.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/sitecall/login.vue
+第3行包含中文:    <close-header title='登录'></close-header>
+第8行包含中文:          v-model='name' placeholder="请输入用户名" maxlength="20"
+第18行包含中文:          v-model='pwd' placeholder="请输入密码" maxlength="20"
+第30行包含中文:          登录
+第54行包含中文:        return Toast.makeText('用户名密码不能为空');
+第61行包含中文:            return Toast.makeText('客户列表里没有配置此用户，请进行信息配置');
+第65行包含中文:          Toast.makeText('登陆失败，请联系客户人员');
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/static/about.vue
+第67行包含中文:    <!-- 全球理财业务 -->
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/static/newabout.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/static/newaboutsale.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/static/security.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/bindMobile.vue
+第3行包含中文:    <close-header title='创建帐号' :isBack='true'>
+第5行包含中文:    <!-- <common-mheaderfixed title='注册'></common-mheaderfixed> -->
+第8行包含中文:        欢迎您加入凤凰金融，完善资料后可以使用快捷方式一键登录。
+第26行包含中文:          placeholder="请输入您的手机号码"
+第37行包含中文:            placeholder="请输入短信验证码"
+第51行包含中文:          <span v-if='!smsSent'>获取短信验证码</span>
+第52行包含中文:          <span v-if='smsSent && smsTimeout > 0'>重新获取({{ smsTimeout }})</span>
+第53行包含中文:          <span v-if='smsSent && smsTimeout <= 0'>重新获取</span>
+第61行包含中文:          placeholder="6-20位数字、字母、符号任意两种组合"
+第74行包含中文:          立即创建
+第80行包含中文:          已有凤凰金融账号？
+第83行包含中文:          立即绑定
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/bindToMobile.vue
+第3行包含中文:    <close-header title='帐号绑定' :isBack='true'></close-header>
+第4行包含中文:    <!-- <common-mheaderfixed title='登录'></common-mheaderfixed> -->
+第9行包含中文:          绑定凤凰金融账号后可以使用快捷方式一键登录。
+第26行包含中文:            name="mobile" maxlength='13' v-model='mobile' placeholder="请输入您的手机号码">
+第34行包含中文:            v-model='password' placeholder="请输入登录密码" maxlength="20"
+第46行包含中文:            立即绑定
+第52行包含中文:            忘记密码
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/chooseCountry.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/closeHeader.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/invite/friends.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/invite/sharePage.vue
+第13行包含中文:                 <!--placeholder="手机号,例如:+86xxxxx" maxlength="20"/>-->
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/login.vue
+第4行包含中文:    <!-- <common-mheaderfixed title='登录'></common-mheaderfixed> -->
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/reg.vue
+第10行包含中文:    <!-- <common-mheaderfixed title='注册'></common-mheaderfixed> -->
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/regAgreement.vue
+第228行包含中文:/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+第236行包含中文:/* 内外边距通常让各个浏览器样式的表现位置不同 */
+第245行包含中文:/* 要注意表单元素并不继承父级 font 的问题 */
+第255行包含中文:/* 去掉列表前的标识, li 会继承 */
+第264行包含中文:/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/reset.vue
+第78行包含中文:          遇到问题? 请
+第79行包含中文:          <a href="#">联系客服</a>
+第133行包含中文:          遇到问题? 请
+第134行包含中文:          <a href="#">联系客服</a>
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/setting.vue
+第214行包含中文:   * 默认 temp = type
+第238行包含中文:     * 打开 modal
+第247行包含中文:     * 点选了某一个
+第255行包含中文:     * 确定
+第280行包含中文:     * 退出登录
+� ² é   è ¯ » å ¹ ¶ å   æ     < r o u t e r - l i n k   : t o = ' {   n a m e :   " r e g A g r e e m e n t "   } ' >]
+第111行包含中文:[                                        ã   å  ¤ å  ° é   è   ç ½  ç «  æ ³ ¨ å   å   è ® ® ã  ]
+第119行包含中文:[                                    ç «  å  ³ è ´ ­ ä ¹ °]
+第143行包含中文:[                    < d i v   c l a s s = " s u b j e c t _ t i t l e " > 2 å ¤ § ç  ¹ æ   å   æ  ¶ ä º « < / d i v >]
+第145行包含中文:[                        < ! - -   < d i v   c l a s s = " s u b j e c t _ s u b t i t l e " > è ± ª ç ¤ ¼ æ  ° æ   æ      æ  ° ç  ¨ æ  · ä ¸  ä º « < / d i v >   - - >]
+第151行包含中文:[                                < d i v   c l a s s = " b o t t o m _ t e x t " > é ¢  æ   å ¹ ´ å   æ  ¶ ç   < / d i v >]
+第158行包含中文:[                                < d i v   c l a s s = " b o t t o m _ t e x t " > ä º § å   æ   é   < / d i v >]
+第163行包含中文:[                                    < s p a n   c l a s s = " v a l u e " > { { m i n i n u m I n v e s t A m o u n t S t r } } < / s p a n > < s p a n   c l a s s = " u n i t " > ç ¾  å   < / s p a n >]
+第165行包含中文:[                                < d i v   c l a s s = " b o t t o m _ t e x t " > è µ · æ   é   é ¢  < / d i v >]
+第179行包含中文:[                    < d i v   c l a s s = " t e x t " > æ  ° è   å ® ¢ æ  · å   æ  ¶ ä º « < / d i v >]
+第182行包含中文:[                < d i v   c l a s s = " p a c k _ d e s c " > ä »  é   é   å ¯ ¹ é ¢  æ   å ¹ ´ å   æ  ¶ ç   < s p a n   c l a s s = " r e d " > 6 % < / s p a n > æ  ¿ ä º § æ  µ æ  ¼ ç ¾  å   ç   è ´ ¢ ä º § å   ï ¼  æ   è µ  å  ³ å ¾  æ   è µ  ç º ¢ å   ï ¼  ç ´ ¯ ç § ¯ é «  è ¾ ¾ < s p a n   c l a s s = " r e d " > 2 0 0 0 ç ¾  å   < / s p a n > ã   < / d i v >]
+第185行包含中文:[                        < t h   c l a s s = " t h e a d " > å   ç ¬  æ   è µ  é   é ¢  ï ¼  ç ¾  å   ï ¼  < / t h >]
+第186行包含中文:[                        < t h   c l a s s = " t h e a d   l a s t " > ç º ¢ å   ï ¼  ç ¾  å   ï ¼  < / t h >]
+第214行包含中文:[                            < t d > 1 0 0 0 0 0 ä » ¥ ä ¸  < / t d >]
+第223行包含中文:[                    < a   h r e f = " j a v a s c r i p t : 0 "   @ c l i c k = " h a n d e l G e t P a c k "   g a - e v e n t = ' m _ o v e r s e a _ n e w u s e r _ g e t t h r e e ' > ç «  å  ³ é ¢  å   < / a >]
+第235行包含中文:[                        æ  « æ   å · ¦ ä ¾ § ä º  ç » ´ ç    å ¹ ¶ å  ³ æ ³ ¨ â   < s p a n   c l a s s = " r e d " > å  ¤ å  ° é   è   å  ½ é   æ   å  ¡ å  · < / s p a n > â   ï ¼  è  · å ¾  æ   æ  ° æ   è µ  è µ  è ® ¯ ã   å ¦  æ   æ  ¨ æ   ä » » ä ½  é  ® é ¢  ï ¼  æ ¬ ¢ è ¿  ç   è ¨  ï ¼  ä ¸ º æ  ¨ æ   ä ¾  å   è ´ ¹ ä ¸ ­ æ   ä ¸  ä ¸  å ® ¢ æ  · æ   å  ¡ ã  ]
+第240行包含中文:[                    < d i v   c l a s s = " t e x t " > æ ´ » å  ¨ è §  å   < / d i v >]
+第246行包含中文:[                < ! - -   < p   c l a s s = " b o t t o m _ t e l " > ç ¾  å  ½ å  ° å  º ï ¼  + 1   8 0 0 - 4 1 3 - 8 9 7 3   ã   0 9 : 0 0 - 1 8 : 0 0 ç ¾  è ¥ ¿ æ  ¶ é  ´ ã   < / p >]
+第247行包含中文:[                < p   c l a s s = " b o t t o m _ t e l   l a s t " > ä ¸ ­ å  ½ å ¤ § é   ï ¼  + 8 6   4 0 0 - 0 7 6 - 1 1 6 6   ã   0 9 : 0 0 - 2 1 : 0 0 å   ä º ¬ æ  ¶ é  ´ ã   < / p >   - - >]
+第288行包含中文:[                t e x t : ' è ¶  ä ½  æ   è µ  æ   æ  ¬ ' ,]
+第289行包含中文:[                s u b t e x t : ' æ   ä ½  5 0 0 0 ç ¾  å   è µ · æ   ï ¼  æ   å ¿ « ä º  å   é   ç º ¿ ä ¸  æ   è µ  ï ¼  å   æ  ¶ å   è ´ ¹ ä º « å   å  ¨ ç ¨  ä ¸ ­ æ   ä ¸  ä ¸  V I P æ   è µ  å  ¨ è ¯ ¢ æ   å  ¡ ã   ' ,]
+第292行包含中文:[                t e x t : ' è µ  ä º § ç ¨ ³ å  ¥ å ¢  å  ¼ ' ,]
+第293行包含中文:[                s u b t e x t : ' ä ¸  ç   æ   é «  æ   æ  ¯ å  ¨ æ  ¶ ç   æ  § å ¹ ³ å  ° å ®  å  ¨ ï ¼  å   å  ² å   ä »  ç   è ¾ ¾ å  ° 1 0 0 % ï ¼  ä ¸ º æ  ¨ ç   è µ  ä º § å ®  å  ¨ ä ¿  é © ¾ æ  ¤ è  ª ã   ' ,]
+第296行包含中文:[                t e x t : ' ç ² ¾ è  ± æ   è  ² å  ¨ å ¤  ' ,]
+第297行包含中文:[                s u b t e x t : ' æ   å   ä ½  æ  ¬ ç §  å ¹ ´ å   è  ± è ´ ¹ $ 7 2 5 0 0 è ® ¡ ç ®  ï ¼  ç  ° å  ¨ å  ª é   æ   è µ  $ 5 5 0 0 0 ï ¼  5 å ¹ ´ å   å ­ © å ­  å ®  æ   æ   è  ² å  ¨ å ¤  ã   ' ,]
+第300行包含中文:[            p a c k _ d e s c s : [ ' å ½  ç  ¨ æ  · æ   è µ  è ¾ ¾ å  ° æ   å ®  é   é ¢  ï ¼  å  ³ å  ¯ è  · å ¾  ç  ¸ å º  ç º ¢ å   ï ¼  å  ³ ä ¸ º ç   è ´ ¢ å  ¸ ï ¼  ã   å  ¯ é   è ¿  â   å  ¡ å  ¸ ä ¸ ­ å ¿  â   æ  ¥ ç   ã   ' ,]
+第301行包含中文:[            ' ç   è ´ ¢ å  ¸ å  ¨ æ   è µ  æ  ¶ å  ¯ è ® ¡ å  ¥ æ  ¬ é   ï ¼  æ   è µ  å  ° æ   å   ï ¼  è ¿  æ  ¬ å ¸ ¦ æ  ¯ ä ¸  å   è ¿  è ¿  ã   ' ,]
+第302行包含中文:[            ' æ ­ ¤ æ ´ » å  ¨ é   ç  ¨ ä º  æ   æ   å  ¤ å  ° é   è   å  ½ é   å ¹ ³ å  ° ç   ç  ¨ æ  · ã   ' ,]
+第303行包含中文:[            ' æ  ° ç  ¨ æ  · ä ¸  ç  ¨ æ   å  ¨ é ¢  å   ç º ¢ å   ï ¼  æ ³ ¨ å   æ   å   å   ç º ¢ å   è  ª å  ¨ å   æ  ¾ è  ³ æ  ¨ ç   è ´ ¦ æ  · ã   ' ,]
+第304行包含中文:[            ' è   ç  ¨ æ  · è ¯ · ç  ¹ å  » ä ¸  æ  ¹ â   ç «  å  ³ é ¢  å   â   ï ¼  ç  » å ½  æ   å   å   ï ¼  è ¯ · å  ° å  ¡ å  ¸ ä ¸ ­ å ¿  æ  ¥ ç   ç º ¢ å   è ¯ ¦ æ     ã   ' ] ,]
+第305行包含中文:[            a c t i v i t y _ d e s c : [ ' æ ´ » å  ¨ æ   é  ´ ï ¼  ç  ¨ æ  · å  ¨ å  ¤ å  ° é   è   æ µ · å ¤  å ¹ ³ å  ° æ   è µ  ä »  é   6 % ç   æ  ¿ ä º § æ  µ æ  ¼ ç ³ » å   ä º § å   ï ¼  å   ç ¬  æ   è µ  è ¾ ¾ å  ° æ   å ®  é   é ¢  æ ¡ £ ä ½  ï ¼  å  ³ å  ¯ å  ¨ â   å  ¡ å  ¸ ä ¸ ­ å ¿  â   é ¢  å   ç º ¢ å   ã   æ ¯  å ¼   ç º ¢ å   å  ¯ ä ½ ¿ ç  ¨ ä ¸  æ ¬ ¡ ï ¼  å  ¯ æ   è µ  å ¤  ç ¬  ã   ' ,]
+第306行包含中文:[' æ  ° ç  ¨ æ  · æ   æ  ª å  ¨ å  ¤ å  ° é   è   æ µ · å ¤  å ¹ ³ å  ° æ   è µ  æ µ · å ¤  è µ  ä º § ç   ç  ¨ æ  · ï ¼  è   ç  ¨ æ  · æ   å · ² å  ¨ å  ¤ å  ° é   è   æ µ · å ¤  å ¹ ³ å  ° æ   è µ  æ µ · å ¤  è µ  ä º § ç   ç  ¨ æ  · ã   ' ,]
+第307行包含中文:[' æ ´ » å  ¨ æ   é  ´ ï ¼  æ  ° ç  ¨ æ  · æ   è µ  æ  ° æ   æ    æ   æ » ¡ å   ï ¼  å   æ ¬ ¡ å ¤  æ   6 % ä ¼  è ´ ¨ ç ¾  å   ç   è ´ ¢ ä º § å   ï ¼  å  ¯ ä ½ ¿ ç  ¨ ç  ¸ å º  é   é ¢  æ   è µ  ç º ¢ å   ï ¼  å ¹ ¶ ä ¸  å  ª é   è ¦  å  ¨ æ  ° æ   æ    æ  ¬ æ  ¯ å  º ç ¡  ä ¸  è ¡ ¥ é ½  æ   è µ  6 % ç   è ´ ¢ ä º § å   ç   å · ® é ¢  å  ³ å  ¯ ã   å   æ  ¶ ï ¼  å  ¯ å  ¦ è  · å ¾  å   ç ¬  3 0 ç ¾  å   æ   ç » ­ è ´ ¹ è ¡ ¥ è ´ ´ ï ¼  æ   ç » ­ è ´ ¹ è ¡ ¥ è ´ ´ å °  ä » ¥ ç ¾  å   ç   å ½ ¢ å ¼  å   æ  ¾ å  ° æ  ¨ ç   å  ¤ å  ° é   è   è ´ ¦ æ  · ï ¼  å  ¨ æ   è µ  å  ° æ   å   ï ¼  è ¿  å   æ  ¬ æ  ¯ ä ¸  å   è ¿  è ¿  å  ° æ  ¨ ç   è ´ ¦ æ  · ã   ' ,]
+第308行包含中文:[' å   å    æ  ¬ æ ¬ ¡ æ ´ » å  ¨ ä ½ ¿ ç  ¨ ä º  ç º ¢ å   å   ï ¼  ä ½ ¿ ç  ¨ ç  ¶ æ   å  ¯ å  ¨ æ  ¨ ç   â   å  ¡ å  ¸ ä ¸ ­ å ¿  â   ä ¸ ­ æ  ¥ ç   ï ¼  æ   è µ  å  ° æ   å   ï ¼  è ¿  æ  ¬ å ¸ ¦ æ  ¯ ä ¸  å   è ¿  è ¿  ã   ' ,]
+第309行包含中文:[' æ  ¬ æ ´ » å  ¨ æ   ç »  è § £ é   æ   ä ¸ º å  ¤ å  ° é   è   æ   æ   ã   å ¦  æ   ä » » ä ½  ç   é  ® ï ¼  è ¯ · è   ç ³ » å  ¤ å  ° é   è   å  ½ é   å ® ¢ æ   ç  ­ ç º ¿ ã   ' ]]
+第353行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · å  ¾ é   å   æ   ã   å  ¤ å  ° é   è   ç ½  ç «  æ ³ ¨ å   å   è ® ® ã   ' ) ;]
+第355行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · å  ¾ é   å   æ   ã   å  ¤ å  ° é   è   ç ½  ç «  æ ³ ¨ å   å   è ® ® ã   ' ) ;]
+第384行包含中文:[                g l o b a l . T o a s t . m a k e T e x t ( ' æ  ­ å   æ  ¨ ï ¼  é ¢  å   æ   å   ' ) ;]
+第426行包含中文:[                g l o b a l . T o a s t . m a k e T e x t ( ' æ  ­ å   æ  ¨ ï ¼  é ¢  å   æ   å   ' ) ;]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/newcustomer/index_d.vue
+第6行包含中文:[            < ! - -   é ¡ ¶ é  ¨ æ ³ ¨ å     - - >]
+第20行包含中文:[                < d i v   c l a s s = " h e a d e r " > ç º ¢ å   è ¯ ¦ æ   < / d i v >]
+第26行包含中文:[                        < t h   c l a s s = " t h e a d " > å   ç ¬  æ   è µ  é   é ¢  ï ¼  ç ¾  å   ï ¼  < / t h >]
+第27行包含中文:[                        < t h   c l a s s = " t h e a d " > ç º ¢ å   ï ¼  ç ¾  å   ï ¼  < / t h >]
+第55行包含中文:[                            < t d > 1 0 0 0 0 0 ä » ¥ ä ¸  < / t d >]
+第91行包含中文:[                t i t l e : ' ä »  é   é   å ¯ ¹ æ  ¿ å  ° ä º § æ  µ æ  ¼ 6 . 0 % ä º § å   ï ¼  å ½  ç  ¨ æ  · æ   è µ  è ¾ ¾ å  ° æ   å ®  é   é ¢  ï ¼  å  ³ å  ¯ è  · å ¾  ç  ¸ å º  ç º ¢ å   ï ¼  å  ³ ä ¸ º ç   è ´ ¢ å  ¸ ï ¼  ã   å  ¯ é   è ¿  â   å  ¡ å  ¸ ä ¸ ­ å ¿  â   è ¿  è ¡  é ¢  å   ' ,]
+第92行包含中文:[                i n f o : ' *   ç   è ´ ¢ å  ¸ å  ¨ æ   è µ  æ  ¶ å  ¯ ä » ¥ è ® ¡ å  ¥ æ  ¬ é   ï ¼  æ   è µ  å  ° æ   å   ï ¼  è ¿  æ  ¬ å ¸ ¦ æ  ¯ ä ¸  å   è ¿  è ¿  ã   ' ,]
+第93行包含中文:[                i n f o 1 :   ' *   æ ­ ¤ æ ´ » å  ¨ é   ç  ¨ ä º  æ   æ   å  ¤ å  ° é   è   å  ½ é   å ¹ ³ å  ° ç   ç  ¨ æ  · ã   ' ,]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/newcustomer/paypack.vue
+第3行包含中文:[        < c o m m o n - b a c k h e a d e r   : i s s h o w = " i s s h o w b a c k "   p a g e T i t l e = " ç º ¢ å   å   è ¡ ¨ " > < / c o m m o n - b a c k h e a d e r >]
+第12行包含中文:[                            < t h   c l a s s = " t h e a d " > å   ç ¬  æ   è µ  é   é ¢  ï ¼  ç ¾  å   ï ¼  < / t h >]
+第13行包含中文:[                            < t h   c l a s s = " t h e a d " > ç º ¢ å   ï ¼  ç ¾  å   ï ¼  < / t h >]
+第41行包含中文:[                                < t d > 1 0 0 0 0 0 ä » ¥ ä ¸  < / t d >]
+第50行包含中文:[                        < a   h r e f = " j a v a s c r i p t : 0 "   @ c l i c k = " h a n d e l G e t P a c k " > ç «  å  ³ é ¢  å   2 , 0 0 0 ç ¾  å   ç º ¢ å   < / a >]
+第54行包含中文:[                < d i v   c l a s s = " t e l p a n e l "   @ c l i c k . s t o p = " h a n e l t e l ( ' + 1 8 0 0 4 1 3 8 9 7 3 ' ) " > å ¦  æ   ä » » ä ½  ç   é  ® ï ¼  è ¯ · æ  ¨ æ   å ® ¢ æ   ç  ­ ç º ¿   8 0 0 - 4 1 3 - 8 9 7 3 < / d i v >]
+第69行包含中文:[                t i t l e : ' ä »  é   é   å ¯ ¹ æ  ¿ å  ° ä º § æ  µ æ  ¼ 6 . 0 % ä º § å   ï ¼  å ½  ç  ¨ æ  · æ   è µ  è ¾ ¾ å  ° æ   å ®  é   é ¢  ï ¼  å  ³ å  ¯ è  · å ¾  ç  ¸ å º  ç º ¢ å   ï ¼  å  ³ ä ¸ º ç   è ´ ¢ å  ¸ ï ¼  ã   å  ¯ é   è ¿  â   å  ¡ å  ¸ ä ¸ ­ å ¿  â   è ¿  è ¡  é ¢  å   ' ,]
+第70行包含中文:[                i n f o : ' *   ç   è ´ ¢ å  ¸ å  ¨ æ   è µ  æ  ¶ å  ¯ ä » ¥ è ® ¡ å  ¥ æ  ¬ é   ï ¼  æ   è µ  å  ° æ   å   ï ¼  è ¿  æ  ¬ å ¸ ¦ æ  ¯ ä ¸  å   è ¿  è ¿  ã   ' ,]
+第71行包含中文:[                i n f o 1 :   ' *   æ ­ ¤ æ ´ » å  ¨ é   ç  ¨ ä º  æ   æ   å  ¤ å  ° é   è   å  ½ é   å ¹ ³ å  ° ç   ç  ¨ æ  · ã   ' ,]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/north_us_agent/index.vue
+第14行包含中文:[                        < p   c l a s s = " p 2 " > å    æ  ¯ å  ¸ < / p >]
+第17行包含中文:[                        < s p a n   c l a s s = " d e s p " > æ   è µ  å  ¨ å  º ä » » ä ¸  ç   è ´ ¢ ä º § å   å  ¯ ç  ¨ ï ¼  æ  ° æ   æ    é  ¤ å ¤  < / s p a n >]
+第19行包含中文:[                            < s p a n   c l a s s = " s t o c k _ n u m " > å ½  å   å · ² æ   { { p e r s o n N u m } } ä º º æ   å   é ¢  å   å    æ  ¯ å  ¸ < / s p a n >]
+第20行包含中文:[                            < s p a n   c l a s s = " s t o c k _ b t n "   v - i f = " r e c e i v e = = = 0 "   @ c l i c k = " b u y ( 1 ) " > ç «  å  ³ é ¢  å   < / s p a n >]
+第21行包含中文:[                            < s p a n   c l a s s = " s t o c k _ b t n _ n o "   v - i f = " r e c e i v e = = = 1 " > æ  ° ä º º ä ¸  ä º « < / s p a n >]
+第22行包含中文:[                            < s p a n   c l a s s = " s t o c k _ b t n _ n o "   v - i f = " r e c e i v e = = = 2 " > æ  ¨ å · ² é ¢  å   < / s p a n >]
+第28行包含中文:[                < d i v   c l a s s = " t i t l e " > ç ¾  å  ½ æ  ¿ ä º § æ  µ æ  ¼ ç ³ » å     ä ¼  è ´ ¨ æ    ç   æ  ¨ è   < / d i v >]
+第29行包含中文:[                < p   c l a s s = " l i n e " > ä ¸  < / p >]
+第34行包含中文:[                            < p > é ¢  è ® ¡ å ¹ ´ å   æ  ¶ ç   < / p >]
+第37行包含中文:[                            < p   c l a s s = " v a l " > < s p a n   c l a s s = " n u m " > { { c a r d O n e . t i m e } } < / s p a n > ä ¸ ª æ   < / p >]
+第38行包含中文:[                            < p > ä º § å   æ   é   < / p >]
+第41行包含中文:[                            < p   c l a s s = " v a l " > < s p a n   c l a s s = " n u m " > { { c a r d O n e . m o n e y } } < / s p a n > ç ¾  å   < / p >]
+第42行包含中文:[                            < p > è µ · æ   é   é ¢  < / p >]
+第45行包含中文:[                    < d i v   c l a s s = " d e t a i l _ s u b "   @ c l i c k = " b u y ( 1 ) " > ç «  å  ³ è ´ ­ ä ¹ ° < / d i v >]
+第51行包含中文:[                            < p > é ¢  è ® ¡ å ¹ ´ å   æ  ¶ ç   < / p >]
+第54行包含中文:[                            < p   c l a s s = " v a l " > < s p a n   c l a s s = " n u m " > { { c a r d T w o . t i m e } } < / s p a n > ä ¸ ª æ   < / p >]
+第55行包含中文:[                            < p > ä º § å   æ   é   < / p >]
+第58行包含中文:[                            < p   c l a s s = " v a l " > < s p a n   c l a s s = " n u m " > { { c a r d T w o . m o n e y } } < / s p a n > ç ¾  å   < / p >]
+第59行包含中文:[                            < p > è µ · æ   é   é ¢  < / p >]
+第62行包含中文:[                    < d i v   c l a s s = " d e t a i l _ s u b "   @ c l i c k = " b u y ( 2 ) " > ç «  å  ³ è ´ ­ ä ¹ ° < / d i v >]
+第66行包含中文:[                        < l i > å    æ  ¯ å  ¸ æ   æ   ä ½ ¿ ç  ¨ æ  ª æ ­ ¢ æ  ¥ æ   ä ¸ º ï ¼  2 0 1 8 å ¹ ´ 1 2 æ   3 1 æ  ¥ 2 3 : 5 9 ï ¼  ç ¾  è ¥ ¿ æ  ¶ é  ´ ï ¼  < / l i >]
+第67行包含中文:[                        < l i > é ¢  å   ï ¼  å  ¨ æ  ¬ é ¡ µ é  ¢ é ¦  æ ¬ ¡ æ ³ ¨ å   å  ¤ å  ° é   è   ç   ç  ¨ æ  · ï ¼  è  ª å  ¨ è  · å ¾  ä ¸  å ¼   å    æ  ¯ å  ¸ å ¥  å  ± ã   < / l i >]
+第68行包含中文:[                        < l i > æ  ¥ è ¯ ¢ ï ¼  æ ³ ¨ å   æ   å   å   ï ¼  è ¯ · ç  » å ½  æ  ¨ ç   è ´ ¦ æ  · ï ¼  å  ¨ â   å  ¡ å  ¸ ä ¸ ­ å ¿  â   æ  ¥ è ¯ ¢ ã   < / l i >]
+第69行包含中文:[                        < l i > ä ½ ¿ ç  ¨ ï ¼  å  ¨ æ   è µ  é ¡ µ é  ¢ å   ï ¼  æ  ¨ å  ¯ ä » ¥ é   æ  © ä ½ ¿ ç  ¨ æ ­ ¤ å    æ  ¯ å  ¸ ã   æ   è µ  å  ° æ   å   ï ¼  å    æ  ¯ æ  ¶ ç   è ¿  å   æ  ¬ æ  ¯ æ  ¶ ç   ä ¸  å   è ¿  è ¿  å  ° æ  ¨ ç   è ´ ¦ æ  · ã   < / l i >]
+第70行包含中文:[                        < l i > æ ­ ¤ å    æ  ¯ å  ¸ ä »  é   ä ¸  ç ¬  æ   è µ  ä ½ ¿ ç  ¨ ï ¼  ä ¸  æ  ¬ æ ´ » å  ¨ ä ¸  å  ¯ ä ¸  å  ¤ å  ° é   è   å ¹ ³ å  ° å  ¶ ä »  ç ¦  å  © å    å    ä ½ ¿ ç  ¨ ã   < / l i >]
+第71行包含中文:[                        < l i > æ  ¬ æ ´ » å  ¨ æ   ç »  è § £ é   æ   ä ¸ º å  ¤ å  ° é   è   æ   æ   ã   å ¦  æ   ç   é  ® ï ¼  è ¯ · è   ç ³ » å  ¤ å  ° é   è   æ µ · å ¤  å ¹ ³ å  ° å ® ¢ æ   ã   < / l i >]
+第98行包含中文:[            t i t l e s :   [ ' ä º § å   ç ®  ä »  ' ,   ' é ¡ ¹ ç  ® ç »  æ   ' ,   ' å ®  å  ¨ ä ¿  é   ' ,   ' æ    ç   å ®  ä ¾  ' ,   ' å ¹ ³ å  ° å ®  å   ' ] ,]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/preheat/assetactive.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/preheat/luckactive.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/preheat/preheat.vue
+第7行包含中文:[                < s p a n   c l a s s = " t x t b g " > { { s p T i m e . l e f t D a y } } < / s p a n > < s p a n   c l a s s = " t x t " >   å ¤ ©   < / s p a n >]
+第8行包含中文:[                < s p a n   c l a s s = " t x t b g " > { { s p T i m e . l e f t H o u r } } < / s p a n > < s p a n   c l a s s = " t x t " >   æ  ¶   < / s p a n >]
+第9行包含中文:[                < s p a n   c l a s s = " t x t b g " > { { s p T i m e . l e f t M i n u t e } } < / s p a n > < s p a n   c l a s s = " t x t " >   å     < / s p a n >]
+第10行包含中文:[                < s p a n   c l a s s = " t x t b g " > { { s p T i m e . l e f t S e c o n d } } < / s p a n > < s p a n   c l a s s = " t x t " >   ç §    < / s p a n >]
+第72行包含中文:[                p r e t i t l e :   ' å  © ä ½  æ  ¶ é  ´ : ' ,]
+第93行包含中文:[                    t h r o w   n e w   E r r o r ( ' è  · å   æ   å  ¡ å  ¨ æ  ¶ é  ´ å  º é   ' )]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/index.vue
+第17行包含中文:[                < v t i t l e   n a m e = ' å  ¤ å  ° é   è   æ  ¿ å  ° ä º § å  º å ®  æ  ¶ ç   ç   è ´ ¢ ' > < / v t i t l e >]
+第21行包含中文:[                    < s p a n   c l a s s = " r a t e 2   c o l o r - 9 9 9 9 9 9 " > é ¢  æ   å ¹ ´ å   æ  ¶ ç   < / s p a n >]
+第27行包含中文:[                        < s p a n > æ  § æ  ¿ ç ¿ » ä ¿ ® ï ¼  è ½ ¬ æ   è  · å  © å ¸  å  º ç  « ç   < / s p a n >]
+第31行包含中文:[                        < s p a n > ä ¼   ç »  é  ¶ è ¡  è ´ · æ ¬ ¾ ç © º ç  ½ , ç ¿ » ä ¿ ® å   ç  ­ æ   è µ  é   å  ¨ è ½ ¬ é   æ ±  æ  º ç   < / s p a n >]
+第35行包含中文:[                        < s p a n > å ¯ ¹ æ  ¥ æ   è µ  è ´ ¨ ä ¸  ä ¸  ç ¿ » ä ¿ ® å   ï ¼  ä ¸  ä ¸  ç ¾  é   è µ · æ   < / s p a n >]
+第41行包含中文:[                < v t i t l e   n a m e = ' æ ¬ ¢ è ¿  æ  ¨ æ   å   è ´ ¹ å   è ¯ ­ å  ¨ è ¯ ¢ ä ¸  ç º ¿ ' > < / v t i t l e >]
+第48行包含中文:[                < s p a n   c l a s s = " d u r a t i o n   c o l o r - 9 9 9 9 9 9 " > å  ¨ ä ¸  è  ³ å  ¨ ä º  0 9 : 0 0 - 1 8 : 0 0 ( ç ¾  è ¥ ¿ æ  ¶ é  ´ ) < / s p a n >]
+第51行包含中文:[                    < s p a n   c l a s s = " f o n t - s i z e - 2 8   l n   c o l o r - 3 3 3 3 3 3 " > å ¾ ® ä ¿ ¡ ä ¸ ­ å  ¯ é  ¿ æ   ä º  ç » ´ ç    æ · » å    æ   è µ  é ¡ ¾ é  ® å ¾ ® ä ¿ ¡ å  · < / s p a n >]
+第52行包含中文:[                    < s p a n   c l a s s = " f o n t - s i z e - 2 8   l n   c o l o r - 3 3 3 3 3 3 " > é   æ  ¶ ä ¸  æ   ä » ¬ è   ç ³ » ï ¼  < / s p a n >]
+第57行包含中文:[                    < s p a n   c l a s s = " d i s p l a y - b l o c k " > ä ¹   æ  ¯ ç  ¨ é  ® ä » ¶ ï ¼  è ¯ · è   ç ³ » æ   ä » ¬ ï ¼ ]
+第65行包含中文:[                < v t i t l e   n a m e = " æ  ¨ ç   ä ¸  å ±  ç   è ´ ¢ ä º § å   " > < / v t i t l e >]
+第77行包含中文:[                                < s p a n   c l a s s = " f r i g h t   p t i m e   c o l o r - 3 3 3 3 3 3 " > { { i t e m . m c o u n t } } { { i t e m . m u n i t } } è µ · < / s p a n >]
+第94行包含中文:[                < v t i t l e   n a m e = ' å   è ´ ¹ å  ¨ è ¯ ¢ é ¢  ç º ¦ ' > < / v t i t l e >]
+第96行包含中文:[                    < s p a n   c l a s s = " d i s p l a y - b l o c k " > æ ¬ ¢ è ¿  ç »  æ   ä » ¬ ç  ´ æ  ¥ ç  µ è ¯  ï ¼  æ  ® é   è ¯  ç ² ¤ è ¯ ­ ç   å ¿ « æ ²  é   ã   < / s p a n >]
+第97行包含中文:[                    < s p a n   c l a s s = " d i s p l a y - b l o c k " > æ   è   é   æ  © æ  ¨ æ  ¹ ä ¾ ¿ æ  ¥ å  ¬ ç  µ è ¯  ç   æ  ¶ é  ´ ï ¼  æ   ä » ¬ å °  å ° ½ å ¿ « ä ¸  æ  ¨ è   ç ³ » ã   < / s p a n >]
+第102行包含中文:[                            < t d > å §  å     < b r > < s p a n   c l a s s = " f o n t - s i z e - 2 4   c o l o r - 9 9 9 9 9 9   l i n e - h e i g h t - 3 6 " > ( è  ± æ   / æ  ¼ é  ³ ) < / s p a n > < / t d >]
+第103行包含中文:[                            < t d > < i n p u t   t y p e = " e m a i l "   n a m e = " n a m e "   p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ å §  å   ç   æ ±  è ¯ ­ æ  ¼ é  ³ æ   è  ± æ   "   v - m o d e l = " u s e r i n f o . n a m e " > < / t d >]
+第106行包含中文:[                            < t d > ç  µ å ­  é  ® ä » ¶ å  ° å   < / t d >]
+第107行包含中文:[                            < t d > < i n p u t   t y p e = " e m a i l "   n a m e = " e m a i l "   p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ æ  ¨ ç   ç  µ å ­  é  ® ç ® ± å  ° å   "   v - m o d e l = " u s e r i n f o . e m a i l " > < / t d >]
+第110行包含中文:[                            < t d > ä ¸ » è ¦  è   ç ³ » ç  µ è ¯  < / t d >]
+第117行包含中文:[                                s t y l e = " w i d t h :   7 5 % "   p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ æ  ¨ ç   ç  µ è ¯  å  · ç    "]
+第122行包含中文:[                            < t d > é  ® é ¢  æ   è ¿ ° < / t d >]
+第123行包含中文:[                            < t d > < i n p u t   t y p e = " t e x t "   n a m e = " q u e s t i o n "   p l a c e h o l d e r = " è ¯ · æ   è ¿ ° æ  ¨ ç   é  ® é ¢  "   v - m o d e l = " u s e r i n f o . q u e s t i o n " > < / t d >]
+第128行包含中文:[                    < s p a n > * é ¢  ç º ¦ æ  ¶ é  ´ å   ä ¸ º ç ¾  å  ½ è ¥ ¿ é  ¨ æ  ¶ é  ´ ï ¼  è ¯ · æ   ¸ å ¯ ¹ æ  ¨ ç   å ½  å  ° æ  ¶ é  ´ æ ³ ¨ æ   æ  ¶ å · ® å  º å  « ã   < / s p a n >]
+第149行包含中文:[                < v t i t l e   n a m e = ' æ   è µ  æ   ç ¤ ¼ ' > < / v t i t l e >]
+第151行包含中文:[                    < s p a n > 1 . å ¡ « å   ç   å ®  ä ¿ ¡ æ  ¯ ï ¼  å ®  æ   å ¼  æ  · ï ¼  < / s p a n >]
+第152行包含中文:[                    < s p a n > 2 . æ   è µ  æ  ¿ å  ° ä º § å  º å ®  æ  ¶ ç   ç   è ´ ¢ ä º § å   è ¾ ¾ å  ° $ 1 0 0 0 0 ç ¾  é   ï ¼  < / s p a n >]
+第153行包含中文:[                    < s p a n > å  ³ å  ¯ è  · å ¾  ä ¸  å ¼   $ 5 0 ç ¾  å   ç   A m a z o n è ´ ­ ç  © å  ¡ ï ¼  å ¤  æ   å ¤  é   ï ¼  ä ¸  è ® ¾ é   ï ¼  < / s p a n >]
+第157行包含中文:[                    < s p a n > æ ´ » å  ¨ æ  ¶ é  ´ ï ¼  1 æ   1 6 æ  ¥ - 2 æ   1 6 æ  ¥ < / s p a n >]
+第165行包含中文:[                < v t i t l e   n a m e = ' é   ç §  ç  ³ æ   ' > < / v t i t l e >]
+第167行包含中文:[                    æ   ä » ¬ ç « ­ å   ä ¿  æ  ¤ æ  ¨ ä ¸ ª ä º º è µ  æ   ç   é   ç §  æ   ï ¼  ä ¸  ä ¼  ç »  ä » » ä ½  ä º º å  º å  ® ã   å  º ç §  æ   è   æ   ä º  è ¿  ä ¸ ª è µ  æ   ç   ä ½ ¿ ç  ¨ æ   ã  ]
+第168行包含中文:[                    æ   ä » ¬ å  ¯ è  ½ ä ¼  ä ½ ¿ ç  ¨ æ  ¨ ç   ä ¸ ª ä º º è µ  æ   æ  ¥ å   ç  ¥ æ  ¨ æ   ç  ¨ ç   ä º § å   å   æ   å  ¡ ï ¼  å ¹ ¶ å   é   ç  µ å ­  é   ä ¿ ¡ ï ¼  ä ¾  å ¦  ç ®  æ  ¥ ã   æ  ° å ® ¢ æ  · ä ¿ ¡ æ  ¯ ã   æ ´ » å  ¨ é   è ¯ · å   ä ¼  æ    ã  ]
+第169行包含中文:[                    æ  ¨ é   æ  ¶ å  ¯ ä » ¥ å   æ ¶  è ® ¢ é   å  ¤ å  ° é   è   ç   ä » » ä ½  ä ¿  é   ç  µ å ­  é  ® ä » ¶ é   ä ¿ ¡ ã   æ  ´ å ¤  è ® ¯ æ  ¯ è ¯ · å   é   æ   ä » ¬ ç   é   ç §  å £ ° æ   ã  ]
+第213行包含中文:[            c o m m i t t x t :   ' é © ¬ ä ¸  æ   ä º ¤ ' ,]
+第214行包含中文:[            i n v e s t t x t :   ' ç «  å  ³ æ   è µ  ' ,]
+第298行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · è ¾  å  ¥ å §  å   ç   æ ±  è ¯ ­ æ  ¼ é  ³ æ   è  ± æ   ' ) ;]
+第302行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · è ¾  å  ¥ æ  ¨ ç   ç  µ å ­  é  ® ç ® ± å  ° å   ' ) ;]
+第306行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · è ¾  å  ¥ æ  ¨ ç   ç  µ è ¯  å  · ç    ' ) ;]
+第310行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · æ   è ¿ ° æ  ¨ ç   é  ® é ¢  ' ) ;]
+第317行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · è ¾  å  ¥ æ ­ £ ç ¡ ® ç   å §  å   ç   æ ±  è ¯ ­ æ  ¼ é  ³ æ   è  ± æ   ' ) ;]
+第321行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · è ¾  å  ¥ æ ­ £ ç ¡ ® ç   ç  µ å ­  é  ® ç ® ± å  ° å   ' ) ;]
+第325行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · è ¾  å  ¥ æ ­ £ ç ¡ ® ç   ç  µ è ¯  å  · ç    ' ) ;]
+第329行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · é   æ  © é ¢  ç º ¦ æ  ¶ é  ´ ' ) ;]
+第341行包含中文:[            u s e r i n f o . l a n g   =   ' æ  ® é   è ¯  ' ;]
+第349行包含中文:[                      *   é ¢  ç º ¦ æ   å   :   I n i t i a t e C h e c k o u t]
+第354行包含中文:[                    T o a s t . m a k e T e x t ( ` æ   è ° ¢ æ  ¨ é   æ  © æ  ¥ å  ¬ æ   å  ¡ ï ¼  æ   ä » ¬ å °  ä º  $ { t i m e s . y e a r ( ) } å ¹ ´ $ { t i m e s . m o n t h ( ) + 1 } æ   $ { t i m e s . d a t e ( ) } æ  ¥ $ { t i m e s . h o u r ( ) } æ  ¶ $ { t i m e s . m i n u t e ( ) } å   å   æ  ¨ è  ´ ç  µ ` )]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/v-button.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/v-footer.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/v-gray.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/v-line.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/promote/v-title.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/vip/index.vue
+第9行包含中文:[                    < r o u t e r - l i n k   : t o = " { n a m e : ' s u b L i s t ' } " > å ¼  å  ¯ ç ¾  å   æ   è µ  < / r o u t e r - l i n k >]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/activity/vip/vip_out.vue
+第6行包含中文:[            < ! - -   é ¡ ¶ é  ¨ æ ³ ¨ å     - - >]
+第28行包含中文:[                                    p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ æ  ¨ ç   æ   æ  º å  · ç    "]
+第39行包含中文:[                                        p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ ç  ­ ä ¿ ¡ é ª  è ¯  ç    "]
+第55行包含中文:[                                    < s p a n   v - i f = ' ! s m s S e n t ' > è  · å   ç  ­ ä ¿ ¡ é ª  è ¯  ç    < / s p a n >]
+第56行包含中文:[                                    < s p a n   v - i f = ' s m s S e n t   & &   s m s T i m e o u t   >   0 ' > é   æ  ° è  · å   ( { {   s m s T i m e o u t   } } ) < / s p a n >]
+第57行包含中文:[                                    < s p a n   v - i f = ' s m s S e n t   & &   s m s T i m e o u t   < =   0 ' > é   æ  ° è  · å   < / s p a n >]
+第66行包含中文:[                                    p l a c e h o l d e r = " 6 - 2 0 ä ½  æ  ° å ­  ã   å ­  æ ¯  ã   ç ¬ ¦ å  · ä » » æ   ä ¸ ¤ ç §  ç »  å   "]
+第79行包含中文:[                                    p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ æ  ¨ ç   é  ® ç ® ± å  ° å   ( é   å ¡ « ) "]
+第90行包含中文:[                                    æ   å · ² é   è ¯ » å ¹ ¶ å   æ     < r o u t e r - l i n k   : t o = ' {   n a m e :   " r e g A g r e e m e n t "   } ' >]
+第91行包含中文:[                                        ã   å  ¤ å  ° é   è   ç ½  ç «  æ ³ ¨ å   å   è ® ® ã  ]
+第99行包含中文:[                                    å ¼  å  ¯ ç ¾  å   æ   è µ ]
+第118行包含中文:[            < ! - -   å º  é  ¨ æ ³ ¨ å     - - >]
+第143行包含中文:[                                    p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ æ  ¨ ç   æ   æ  º å  · ç    "]
+第154行包含中文:[                                        p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ ç  ­ ä ¿ ¡ é ª  è ¯  ç    "]
+第170行包含中文:[                                    < s p a n   v - i f = ' ! s m s S e n t ' > è  · å   ç  ­ ä ¿ ¡ é ª  è ¯  ç    < / s p a n >]
+第171行包含中文:[                                    < s p a n   v - i f = ' s m s S e n t   & &   s m s T i m e o u t   >   0 ' > é   æ  ° è  · å   ( { {   s m s T i m e o u t   } } ) < / s p a n >]
+第172行包含中文:[                                    < s p a n   v - i f = ' s m s S e n t   & &   s m s T i m e o u t   < =   0 ' > é   æ  ° è  · å   < / s p a n >]
+第181行包含中文:[                                    p l a c e h o l d e r = " 6 - 2 0 ä ½  æ  ° å ­  ã   å ­  æ ¯  ã   ç ¬ ¦ å  · ä » » æ   ä ¸ ¤ ç §  ç »  å   "]
+第194行包含中文:[                                    p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ æ  ¨ ç   é  ® ç ® ± å  ° å   ( é   å ¡ « ) "]
+第205行包含中文:[                                    æ   å · ² é   è ¯ » å ¹ ¶ å   æ     < r o u t e r - l i n k   : t o = ' {   n a m e :   " r e g A g r e e m e n t "   } ' >]
+第206行包含中文:[                                        ã   å  ¤ å  ° é   è   ç ½  ç «  æ ³ ¨ å   å   è ® ® ã  ]
+第214行包含中文:[                                    å ¼  å  ¯ ç ¾  å   æ   è µ ]
+第254行包含中文:[                t i t l e : ' ç ¾  å   æ   è µ  ï ¼  é ¦  é   å  ¤ å  ° é   è   ' ,]
+第255行包含中文:[                s u b t i t l e : [ ' å  ¤ å  ° å  « è §  æ   ä ¸  æ   è µ  ç   è ´ ¢ å ¹ ³ å  ° ' , ' é ¢  æ   å ¹ ´ å   æ  ¶ ç     4 . 5 %   -   8 % ' , ' ä º § å   æ   é   6   â     1 2 ä ¸ ª æ   ' , ' é  ¶ è ¿  ç º ¦ ã   é  ¶ å   è ´ ¦ ã   1 0 0 %   å   å  ² å   ä »  ç   ' ]]
+第278行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · å  ¾ é   å   æ   ã   å  ¤ å  ° é   è   ç ½  ç «  æ ³ ¨ å   å   è ® ® ã   ' ) ;]
+第280行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' è ¯ · å  ¾ é   å   æ   ã   å  ¤ å  ° é   è   ç ½  ç «  æ ³ ¨ å   å   è ® ® ã   ' ) ;]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/coupon/detail.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/coupon/list.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/coupon/single.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/extract/index.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/home/index.vue
+第3行包含中文:[    < ! - -   å ¼ ¹ å  º æ  ¥ å  ¬ æ   å  ¡ ç ª  å  £   - - >]
+第42行包含中文:[        < ! - -   b a n n e r æ    é ¢  ä ¸  æ   è ¿ °   - - >]
+第48行包含中文:[        < ! - -   ç   è ´ ¢ æ    é ¢    - - >]
+第62行包含中文:[                    < s p a n   c l a s s = " r i g h t n u m " > { { l o a n . t e r m } } & n b s p ; | & n b s p ; { { l o a n . m c o u n t } } { { l o a n . m u n i t } } è µ · < / s p a n >]
+第76行包含中文:[        < ! - -   ä º § å   æ   ¸ å ¿  ä ¼  å  ¿   - - >]
+第78行包含中文:[            < s p a n   c l a s s = " c e n t e r - t e x t   t i t l e " > ä º § å   æ   ¸ å ¿  ä ¼  å  ¿ < / s p a n >]
+第79行包含中文:[            < p   c l a s s = " c e n t e r - t e x t   g r e y   s u b t i t l e "   s t y l e = " f o n t - s i z e : 0 . 2 8 r e m " > ç ¾  å  ½ æ  ¿ å  ° ä º § ç ³ » å   å  º å ®  æ  ¶ ç   ç   è ´ ¢ < / p >]
+第84行包含中文:[                < s p a n   c l a s s = " a d v - t i t l e " > è µ  ä º § ä ¼  å  ¿ < / s p a n >]
+第87行包含中文:[                < p > ç ¾  å  ½ é ¡ ¶ ç º § è µ  ä º § å   ä ½  æ  º æ   < / p >]
+第88行包含中文:[                < p > è   å   ä ¸  æ  ¹ é £  æ  § å ±  å ±  ç   é   < / p >]
+第95行包含中文:[                < s p a n   c l a s s = " a d v - t i t l e " > å ®  å  ¨ ä ¿  é   < / s p a n >]
+第98行包含中文:[                < p > å  ­ å ¤ § å ®  å  ¨ ä ¿  é   æ  º å  ¶ < / p >]
+第99行包含中文:[                < p > ç ¾  å  ½ è ¯  å  ¸ æ ³  ç   ç ® ¡ æ    å   < / p >]
+第106行包含中文:[                < s p a n   c l a s s = " a d v - t i t l e " > æ  ¶ ç   ç ¨ ³ å  ¥ < / s p a n >]
+第109行包含中文:[                < p > æ   ç   è µ  æ  ¬ å ¸  å  º < / p >]
+第110行包含中文:[                < p > å ®  ä º « æ   è µ  å   æ  ¥ < / p >]
+第117行包含中文:[                < s p a n   c l a s s = " a d v - t i t l e " > è ½ » æ  ¾ æ   è µ  < / s p a n >]
+第120行包含中文:[                < p > 1 0 0 0 0 ç ¾  å   è µ · æ   < / p >]
+第121行包含中文:[                < p > æ   å ¿ « 5 å   é   å ®  æ   æ   è µ  < / p >]
+第128行包含中文:[        < ! - -   å ® ¢ æ  · ä ¸  æ   å  ¡ - - >]
+第148行包含中文:[                    < s p a n > é ¢  ç º ¦ æ   å  ¡ ï ¼  < / s p a n >]
+第149行包含中文:[                    < s p a n   c l a s s = " c a l l T e l "   @ c l i c k = " c l i c k M o d a l ( ) "   g a - e v e n t = ' m _ h a i w a i _ u s _ h o m e _ c o n s u l t _ c l i c k _ i m g ' > ç  µ è ¯  é ¢  ç º ¦ < / s p a n >]
+第332行包含中文:[    / * * å ® ¢ æ  · æ   å  ¡ * /]
+第348行包含中文:[    / * * ä º § å   ä ¼  å  ¿ * * /]
+第391行包含中文:[    / * * ç   è ´ ¢ ä º § å   å   è ¡ ¨ * * /]
+第436行包含中文:[    / * * å   è ¡ ¨ æ    ç   æ   è ¿ ° * /]
+第489行包含中文:[    / * * ç  µ è ¯  å  ¨ è ¯ ¢ * * /]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/home/index2.vue
+第7行包含中文:[            < p > æ   é  ® é ¢  ? < / p >]
+第8行包含中文:[            < p > ç  ¹ å  » è ¿  é   < / p >]
+第31行包含中文:[        < ! - -   ä ½  é ª  é     - - >]
+第53行包含中文:[            < ! - - å  ª æ   ä ¸  æ  ¡ æ  ° æ  ® - - >]
+第77行包含中文:[            < ! - -   å  · æ   å ¤  æ  ¡ æ  ° æ  ®   - - >]
+第108行包含中文:[            < ! - -   å  ª æ   ä ¸  æ  ¡ æ  ° æ  ®   - - >]
+第131行包含中文:[            < ! - -   å  · æ   å ¤  æ  ¡ æ  ° æ  ®   - - >]
+第284行包含中文:[    / * * é ¦  é ¡ µ b a n n e r * * /]
+第350行包含中文:[    / * ä ½  é ª  é   * /]
+第394行包含中文:[    / * * å   å  ² é  ¢ æ  ¿ * * /]
+第425行包含中文:[    / * * æ    ç   å   è ¡ ¨ * * /]
+第457行包含中文:[    / * æ    ç   ä »  ç »  * /]
+第494行包含中文:[    / * * æ    ç   ä »  ç »  è ¯ ´ æ   * * /]
+第527行包含中文:[    / * * æ    ç   å º  é  ¨ æ   é  ® è ® ¾ ç ½ ® * * /]
+第551行包含中文:[    / * ä ¸  æ    T O D O * /]
+第565行包含中文:[/ * * ä º § å   ä ¼  å  ¿ * /]
+第612行包含中文:[/ * æ  ¥ å  ¬ æ   å  ¡ * /]
+第729行包含中文:[/ * * å º  é  ¨ è · ³ è ½ ¬ * /]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/home/index3.vue
+第7行包含中文:[            < p > æ   é  ® é ¢  ? < / p >]
+第8行包含中文:[            < p > ç  ¹ å  » è ¿  é   < / p >]
+第30行包含中文:[                < ! - -   ä ½  é ª  é     - - >]
+第58行包含中文:[            < d i v   c l a s s = " h e a d e r " > ä ¸ º æ  ¨ æ  ¨ è   ç   ç   è ´ ¢ ä º § å   < / d i v >]
+第60行包含中文:[            < ! - -   æ  ¿ å  ° ä º §   - - >]
+第77行包含中文:[                                < s p a n   c l a s s = " t e r m " > æ   é   { { i t e m . t e r m } } < / s p a n >]
+第82行包含中文:[                        < d i v   c l a s s = " c o l " > { { i t e m . a c m o u n t } } è µ · æ   < / d i v >]
+第88行包含中文:[            < ! - -   æ ¶  è ´ ¹ è ´ ·   - - >]
+第104行包含中文:[                                    < s p a n   c l a s s = " t e r m " > æ   é   { { i t e m . t e r m } } < / s p a n >]
+第109行包含中文:[                                < d i v   c l a s s = " c o l " > { { i t e m . a c m o u n t } } è µ · æ   < / d i v >]
+第115行包含中文:[        < ! - -   æ  ´ å ¤  ä º § å     - - >]
+第117行包含中文:[            < s p a n   c l a s s = " s h o w t e x t "   @ c l i c k . p r e v e n t = " h a n d e l T o S u b L i s t " > æ  ¥ ç   æ  ´ å ¤  ä º § å   < / s p a n >]
+第142行包含中文:[        < ! - -   è µ  é   å ®  å  ¨   - - >]
+第144行包含中文:[            < d i v   c l a s s = " h e a d e r " > è µ  é   å ®  å  ¨ < / d i v >]
+第162行包含中文:[            < d i v   c l a s s = " h e a d e r " > å ® ¢ æ  · æ   å  ¡ < / d i v >]
+第177行包含中文:[            < d i v   c l a s s = " h e a d e r " > å ª  ä ½  æ  ¥ é   < / d i v >]
+第237行包含中文:[                    t e x t : ' å  ¤ å  ° é   è   ç   è ´ ¢ ä º § å   å   ' ,]
+第238行包含中文:[                    t e x t 1 : ' S E C ( ç ¾  å  ½ è ¯  ç   ä ¼  ) ' ,]
+第239行包含中文:[                    t e x t 2 : ' å   I R S ( ç ¾  å  ½ å  ½ ç ¨  å ±  ) å   é   ç   ç ® ¡ ']
+第242行包含中文:[                    t e x t : ' ç  ¨ æ  · è µ  ä º § å ­  ç ® ¡ ä º  ç ¾  å  ½ é  ¶ è ¡    F i r s t   R e p u b l i c   B a n k ']
+第245行包含中文:[                    t e x t : ' å ® ¢ æ  · è µ  ä º § å ­  ç ® ¡ é  ¶ è ¡  æ   ä ¿  ä º  ç  ± F D I C   ï ¼  è   é  ¦ å ­  æ ¬ ¾ ä ¿  é  © å  ¬ å  ¸ ï ¼  å   è ¡  ç   å ­  æ ¬ ¾ ä ¿  é  © ']
+第336行包含中文:[    / * * é ¦  é ¡ µ b a n n e r * * /]
+第406行包含中文:[    / * * ä ¸  é  ¨ é  ¢ æ  ¿ * /]
+第415行包含中文:[    / * ä ½  é ª  é   * /]
+第456行包含中文:[    / * * å   å  ² é  ¢ æ  ¿ * * /]
+第500行包含中文:[    / * * æ    ç   å   è ¡ ¨ * * /]
+第548行包含中文:[    / * æ    ç   ä »  ç »  * /]
+第614行包含中文:[/ * * ä º § å   ä ¼  å  ¿ * /]
+第670行包含中文:[/ * * å ®  å  ¨ ä ¿  é   * * /]
+第725行包含中文:[/ * æ  ¥ å  ¬ æ   å  ¡ * /]
+第829行包含中文:[/ * * å º  é  ¨ è · ³ è ½ ¬ * /]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/home/index4.vue
+第42行包含中文:[            < ! - -   æ  ° æ   æ      - - >]
+第69行包含中文:[            < ! - -   æ  ¿ å  ° ä º §   - - >]
+第96行包含中文:[            < ! - -   æ ¶  è ´ ¹ è ´ ·   - - >]
+第123行包含中文:[        < ! - -   æ  ´ å ¤  ä º § å     - - >]
+第138行包含中文:[< ! - -   æ   è µ  è µ  è ´ ¨   - - >]
+第145行包含中文:[        < ! - -   è µ  é   å ®  å  ¨   - - >]
+第165行包含中文:[            < d i v   c l a s s = " h e a d e r " > å ® ¢ æ  · æ   å  ¡ < / d i v >]
+第414行包含中文:[    / * * é ¦  é ¡ µ b a n n e r * * /]
+第482行包含中文:[    / * * ä ¸  é  ¨ é  ¢ æ  ¿ * /]
+第491行包含中文:[    / * ä ½  é ª  é   * /]
+第532行包含中文:[    / * * å   å  ² é  ¢ æ  ¿ * * /]
+第570行包含中文:[    / * * æ    ç   å   è ¡ ¨ * * /]
+第619行包含中文:[    / * æ    ç   ä »  ç »  * /]
+第685行包含中文:[/ * * ä º § å   ä ¼  å  ¿ * /]
+第741行包含中文:[/ * * å ®  å  ¨ ä ¿  é   * * /]
+第805行包含中文:[/ * å  ¤ é   ä ¹  å ® ¶ * /]
+第918行包含中文:[/ * * å º  é  ¨ è · ³ è ½ ¬ * /]
+第997行包含中文:[    / * æ   è µ  ç   ç  § * /]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/home/subject_list.vue
+第3行包含中文:[        < c o m m o n - b a c k h e a d e r   : i s s h o w = " i s s h o w b a c k "   p a g e T i t l e = " å  ¨ é  ¨ ä º § å   " > < / c o m m o n - b a c k h e a d e r >]
+第9行包含中文:[                      @ c l i c k = " h a n d l e C l i c k T a b ( 1 ) " > æ  ¿ ä º § æ  µ æ  ¼ ç ³ » å   < / a >]
+第12行包含中文:[                      @ c l i c k = " h a n d l e C l i c k T a b ( 2 ) " > æ ¶  è ´ ¹ ä ¿ ¡ è ´ · ç ³ » å   < / a >]
+第30行包含中文:[                                    < s p a n   c l a s s = " t e r m " > æ   é   { { i t e m . t e r m } } < / s p a n >]
+第35行包含中文:[                            < d i v   c l a s s = " c o l " > $ { { i t e m . m i n i n u m I n v e s t A m o u n t } } è µ · æ   < / d i v >]
+第98行包含中文:[/ * * T a b æ    ç ­ ¾ * * /]
+第113行包含中文:[/ * * æ    ç   å   è ¡ ¨ * * /]
+第162行包含中文:[/ * æ    ç   ä »  ç »  * /]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/_mailContract/notice.vue
+第12行包含中文:[                ç ¡ ® å ® ]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/agreement.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/bank.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/detail.vue
+第11行包含中文:[                        < s p a n   c l a s s = " h e a d - p a n e l - s u b t i t l e "   v - i f = " s u b j e c t . r e g i o n ! = = 1 " > { { s u b j e c t . r e g i o n = = 2 ? ' ( ç ¾  å  ½ å   æ   ¼ æ   è µ  ä º º ä ¸  ä º « ) ' : ' ( å  ½ é   æ   è µ  ä º º ä ¸  ä º « ) ' } } < / s p a n >]
+第23行包含中文:[                        < d i v   c l a s s = " o n e "   > < s p a n   c l a s s = " t i t l e " > é ¢  æ   å ¹ ´ å   æ  ¶ ç   ç   < / s p a n > < / d i v >]
+第24行包含中文:[                        < d i v   c l a s s = " s e c o n d "   > < s p a n   c l a s s = " t i t l e " > ä º § å   æ   é   < / s p a n > < / d i v >]
+第29行包含中文:[            < ! - -   ä º § å   è ¯ ¦ æ     - - >]
+第32行包含中文:[                    < s p a n > ä º § å   è ¯ ¦ æ   < / s p a n >]
+第34行包含中文:[                        < s p a n > æ  ´ å ¤  < / s p a n >]
+第41行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > æ  ¶ ç   æ  ¹ å ¼  : < / d i v >]
+第45行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > é ¡ ¹ ç  ® æ  » é ¢  : < / d i v >]
+第49行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > å  © ä ½  å  ¯ æ   : < / d i v >]
+第53行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > è µ · æ   é   é ¢  : < / d i v >]
+第57行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > é   å ¢  é   é ¢  : < / d i v >]
+第61行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > æ   è µ  ä ¿  é   : < / d i v >]
+第67行包含中文:[            < ! - -   å ®  å  ¨ ä ¿  é     - - >]
+第70行包含中文:[                    < s p a n > å ®  å  ¨ ä ¿  é   < / s p a n >]
+第72行包含中文:[                        < s p a n > æ  ´ å ¤  < / s p a n >]
+第81行包含中文:[                            < s p a n > ä ¸  ä ¸  é £  æ  § < / s p a n >]
+第85行包含中文:[                                < s p a n > æ  º æ   ä ¿  é   < / s p a n >]
+第89行包含中文:[                                < s p a n > é   æ   å   è §  < / s p a n >]
+第95行包含中文:[                            < s p a n > æ ³  å ¾  ä ¿  é   < / s p a n >]
+第99行包含中文:[                                < s p a n > è µ  é   å ®  å  ¨ < / s p a n >]
+第103行包含中文:[                                < s p a n > ä ¿ ¡ æ  ¯ å ®  å  ¨ < / s p a n >]
+第110行包含中文:[            < ! - -   æ  µ æ  ¼ è ¯ ¦ æ     - - >]
+第113行包含中文:[                    < s p a n > æ  µ æ  ¼ è ¯ ¦ æ   < / s p a n >]
+第115行包含中文:[                        < s p a n > æ  ´ å ¤  < / s p a n >]
+第126行包含中文:[                            < s p a n   c l a s s = " t i t l e " > æ  ¿ ä º § ä » · å  ¼ : < / s p a n >]
+第128行包含中文:[                            < s p a n   c l a s s = " t i t l e " > æ  µ æ  ¼ æ ¯  ç   : < / s p a n >]
+第132行包含中文:[                            < s p a n   c l a s s = " t i t l e " > å   æ ¬ ¾ ç  ® ç   : < / s p a n >]
+第141行包含中文:[                                        < s p a n   c l a s s = " t i t l e " > æ  ¿ ä º § ä » · å  ¼ : < / s p a n >]
+第143行包含中文:[                                        < s p a n   c l a s s = " t i t l e " > æ  µ æ  ¼ æ ¯  ç   : < / s p a n >]
+第147行包含中文:[                                        < s p a n   c l a s s = " t i t l e " > å   æ ¬ ¾ ç  ® ç   : < / s p a n >]
+第155行包含中文:[            < ! - -   ä º § å   å   å     - - >]
+第158行包含中文:[                    < s p a n > ä º § å   å   å   < / s p a n >]
+第165行包含中文:[            < ! - -   å ¸ ¸ è §  é  ® é ¢    - - >]
+第168行包含中文:[                        < s p a n > å ¸ ¸ è §  é  ® é ¢  < / s p a n >]
+第234行包含中文:[            T o a s t . m a k e T e x t ( ' è ¯ ¥ ä º § å   ä ¸ º ç ¾  å  ½ å   æ   ¼ æ   è µ  ä º º ä ¸  ä º « ä º § å   ' ) ;]
+第236行包含中文:[            T o a s t . m a k e T e x t ( ' è ¯ ¥ ä º § å   ä ¸ º å  ½ é   æ   è µ  ä º º ä ¸  ä º « ä º § å   ' ) ;]
+第431行包含中文:[/ * * å ®  å  ¨ ä ¿  é   å  ¾ ç   * * /]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/detail2.vue
+第178行包含中文:[                    < ! - -   æ ¶  è ´ ¹ è ´ · å ®  å  ¨ ä ¿  é     - - >]
+第683行包含中文:[    / * * å ®  å  ¨ ä ¿  é   å  ¾ ç   * * /]
+第752行包含中文:[    *   å º  é  ¨ å  º å ®  æ   é  ®]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/account.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/finance.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/index.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/law.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/new.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/help/tax.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/mailContract.vue
+第147行包含中文:[                v m . $ s t o r e . c o m m i t ( ' U S E R _ S E L E C T _ C O U N T R Y ' ,   [ ' ä ¸ ­ å  ½ ' ,   ' 8 6 ' ,   ' c n ' ,   ' z h o n g   g u o ' ] )]
+第393行包含中文:[  *   å  ¨ ç  »]
+第412行包含中文:[< ! - -   å ¼  æ  · ä ½ ¿ ç  ¨ ç   æ   æ  ¬ æ ¡    - - >]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/mortgageDetail.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/problemDetail.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/protodetail.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/safeDetail.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/subjectDetail.vue
+第4行包含中文:[            < c o m m o n - b a c k h e a d e r   : i s s h o w = " t r u e "   p a g e T i t l e = " ä º § å   è ¯ ¦ æ   " > < / c o m m o n - b a c k h e a d e r >]
+第10行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > ä º § å   å   ç § ° : < / d i v >]
+第14行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > ä º § å   å  © ç   : < / d i v >]
+第18行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > ä º § å   æ   é   : < / d i v >]
+第22行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > è µ · æ  ¯ æ  ¥ æ   : < / d i v >]
+第26行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > å  ° æ   æ  ¥ æ   : < / d i v >]
+第30行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > è ® ¤ è ´ ­ è §  æ ¨ ¡ : < / d i v >]
+第34行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > è µ · æ   é   é ¢  : < / d i v >]
+第38行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > é   å ¢  é   é ¢  : < / d i v >]
+第42行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > æ  ¶ ç   æ  ¹ å ¼  : < / d i v >]
+第46行包含中文:[                        < d i v   c l a s s = " o n e - c o l u m n " > è µ  é   æ   ç ® ¡ : < / d i v >]
+第52行包含中文:[                    < d i v   c l a s s = " f l e x - h e a d i n g   n o - b o t t o m   n o - b o r d e r " > < s p a n   c l a s s = " b o l d " > ä º § å   ä »  ç »  : < / s p a n > < / d i v >]
+第57行包含中文:[                        < d i v   c l a s s = " f l e x - h e a d i n g   n o - b o t t o m   n o - b o r d e r " > < s p a n   c l a s s = " b o l d " > è ® ¤ è ´ ­ å   å ¤  : < / s p a n > < / d i v >]
+第66行包含中文:[                        < d i v   c l a s s = " f l e x - h e a d i n g   n o - b o r d e r   n o - b o t t o m " > < s p a n   c l a s s = " b o l d " > è ® ¤ è ´ ­ æ   é   : < / s p a n > < / d i v >]
+第75行包含中文:[                        < d i v   c l a s s = " f l e x - h e a d i n g   n o - b o r d e r   n o - b o t t o m " > < s p a n   c l a s s = " b o l d " > æ ±  æ ¬ ¾ è ¯ ´ æ   : < / s p a n > < / d i v >]
+第84行包含中文:[                        < d i v   c l a s s = " f l e x - h e a d i n g   n o - b o r d e r   n o - b o t t o m " > < s p a n   c l a s s = " b o l d " > å   æ ¬ ¾ è ¯ ´ æ   : < / s p a n > < / d i v >]
+第93行包含中文:[                        < d i v   c l a s s = " f l e x - h e a d i n g   n o - b o r d e r   n o - b o t t o m " > < s p a n   c l a s s = " b o l d " > æ   è µ  ä ¿  é   : < / s p a n > < / d i v >]
+第103行包含中文:[            < m b u t t o n   t x t = " ç  µ è ¯  å  ¨ è ¯ ¢ "   : s t a t u s = " t r u e "   : m e t i o n = " f a l s e "   @ b t n C l i c k = " h a n d l e S h o w T e l ( ) "   g a - e v e n t = ' m _ h a i w a i _ u s _ p r o d u c t _ m e n u 0 1 _ c l i c k _ b t n _ c o n s u l t ' >]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/product/subjectDetail2.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/button.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/call.vue
+第39行包含中文:[            s e l e c t e d C o u n t r y : ' ç ¾  å  ½ ' ,]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/callResult.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/mobile.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/sitecall/dial.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/recall/sitecall/login.vue
+第3行包含中文:[        < c l o s e - h e a d e r   t i t l e = ' ç  » å ½  ' > < / c l o s e - h e a d e r >]
+第8行包含中文:[                    v - m o d e l = ' n a m e '   p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ ç  ¨ æ  · å   "   m a x l e n g t h = " 2 0 "]
+第18行包含中文:[                    v - m o d e l = ' p w d '   p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ å ¯  ç    "   m a x l e n g t h = " 2 0 "]
+第30行包含中文:[                    ç  » å ½ ]
+第54行包含中文:[                r e t u r n   T o a s t . m a k e T e x t ( ' ç  ¨ æ  · å   å ¯  ç    ä ¸  è  ½ ä ¸ º ç © º ' ) ;]
+第61行包含中文:[                        r e t u r n   T o a s t . m a k e T e x t ( ' å ® ¢ æ  · å   è ¡ ¨ é   æ ² ¡ æ   é   ç ½ ® æ ­ ¤ ç  ¨ æ  · ï ¼  è ¯ · è ¿  è ¡  ä ¿ ¡ æ  ¯ é   ç ½ ® ' ) ;]
+第65行包含中文:[                    T o a s t . m a k e T e x t ( ' ç  » é   å ¤ ± è ´ ¥ ï ¼  è ¯ · è   ç ³ » å ® ¢ æ  · ä º º å   ' ) ;]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/static/about.vue
+第67行包含中文:[        < ! - -   å  ¨ ç   ç   è ´ ¢ ä ¸  å  ¡   - - >]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/static/newabout.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/static/newaboutsale.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/static/security.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/bindMobile.vue
+第3行包含中文:[        < c l o s e - h e a d e r   t i t l e = ' å   å » º å ¸  å  · '   : i s B a c k = ' t r u e ' >]
+第5行包含中文:[        < ! - -   < c o m m o n - m h e a d e r f i x e d   t i t l e = ' æ ³ ¨ å   ' > < / c o m m o n - m h e a d e r f i x e d >   - - >]
+第8行包含中文:[                æ ¬ ¢ è ¿  æ  ¨ å    å  ¥ å  ¤ å  ° é   è   ï ¼  å ®  å   è µ  æ   å   å  ¯ ä » ¥ ä ½ ¿ ç  ¨ å ¿ « æ  · æ  ¹ å ¼  ä ¸  é  ® ç  » å ½  ã  ]
+第26行包含中文:[                    p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ æ  ¨ ç   æ   æ  º å  · ç    "]
+第37行包含中文:[                        p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ ç  ­ ä ¿ ¡ é ª  è ¯  ç    "]
+第51行包含中文:[                    < s p a n   v - i f = ' ! s m s S e n t ' > è  · å   ç  ­ ä ¿ ¡ é ª  è ¯  ç    < / s p a n >]
+第52行包含中文:[                    < s p a n   v - i f = ' s m s S e n t   & &   s m s T i m e o u t   >   0 ' > é   æ  ° è  · å   ( { {   s m s T i m e o u t   } } ) < / s p a n >]
+第53行包含中文:[                    < s p a n   v - i f = ' s m s S e n t   & &   s m s T i m e o u t   < =   0 ' > é   æ  ° è  · å   < / s p a n >]
+第61行包含中文:[                    p l a c e h o l d e r = " 6 - 2 0 ä ½  æ  ° å ­  ã   å ­  æ ¯  ã   ç ¬ ¦ å  · ä » » æ   ä ¸ ¤ ç §  ç »  å   "]
+第74行包含中文:[                    ç «  å  ³ å   å » º]
+第80行包含中文:[                    å · ² æ   å  ¤ å  ° é   è   è ´ ¦ å  · ï ¼ ]
+第83行包含中文:[                    ç «  å  ³ ç »  å ® ]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/bindToMobile.vue
+第3行包含中文:[        < c l o s e - h e a d e r   t i t l e = ' å ¸  å  · ç »  å ®  '   : i s B a c k = ' t r u e ' > < / c l o s e - h e a d e r >]
+第4行包含中文:[        < ! - -   < c o m m o n - m h e a d e r f i x e d   t i t l e = ' ç  » å ½  ' > < / c o m m o n - m h e a d e r f i x e d >   - - >]
+第9行包含中文:[                    ç »  å ®  å  ¤ å  ° é   è   è ´ ¦ å  · å   å  ¯ ä » ¥ ä ½ ¿ ç  ¨ å ¿ « æ  · æ  ¹ å ¼  ä ¸  é  ® ç  » å ½  ã  ]
+第26行包含中文:[                        n a m e = " m o b i l e "   m a x l e n g t h = ' 1 3 '   v - m o d e l = ' m o b i l e '   p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ æ  ¨ ç   æ   æ  º å  · ç    " >]
+第34行包含中文:[                        v - m o d e l = ' p a s s w o r d '   p l a c e h o l d e r = " è ¯ · è ¾  å  ¥ ç  » å ½  å ¯  ç    "   m a x l e n g t h = " 2 0 "]
+第46行包含中文:[                        ç «  å  ³ ç »  å ® ]
+第52行包含中文:[                        å ¿  è ® ° å ¯  ç   ]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/chooseCountry.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/closeHeader.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/invite/friends.vue
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/invite/sharePage.vue
+第13行包含中文:[                                  < ! - - p l a c e h o l d e r = " æ   æ  º å  · , ä ¾  å ¦  : + 8 6 x x x x x "   m a x l e n g t h = " 2 0 " / > - - >]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/login.vue
+第4行包含中文:[        < ! - -   < c o m m o n - m h e a d e r f i x e d   t i t l e = ' ç  » å ½  ' > < / c o m m o n - m h e a d e r f i x e d >   - - >]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/reg.vue
+第10行包含中文:[        < ! - -   < c o m m o n - m h e a d e r f i x e d   t i t l e = ' æ ³ ¨ å   ' > < / c o m m o n - m h e a d e r f i x e d >   - - >]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/regAgreement.vue
+第228行包含中文:[/ *   é  ² æ ­ ¢ ç  ¨ æ  · è  ª å ®  ä ¹  è   æ  ¯ é ¢  è  ² å ¯ ¹ ç ½  é ¡ µ ç   å ½ ± å   ï ¼  æ · » å    è ® © ç  ¨ æ  · å  ¯ ä » ¥ è  ª å ®  ä ¹  å ­  ä ½    * /]
+第236行包含中文:[/ *   å   å ¤  è ¾ ¹ è ·  é   å ¸ ¸ è ® © å   ä ¸ ª æ µ  è §  å  ¨ æ   · å ¼  ç   è ¡ ¨ ç  ° ä ½  ç ½ ® ä ¸  å     * /]
+第245行包含中文:[/ *   è ¦  æ ³ ¨ æ   è ¡ ¨ å   å   ç ´   å ¹ ¶ ä ¸  ç » § æ  ¿ ç  ¶ ç º §   f o n t   ç   é  ® é ¢    * /]
+第255行包含中文:[/ *   å  » æ   å   è ¡ ¨ å   ç   æ    è ¯  ,   l i   ä ¼  ç » § æ  ¿   * /]
+第264行包含中文:[/ *   æ  ¥ è  ª y a h o o ,   è ® © æ    é ¢  é  ½ è  ª å ®  ä ¹  ,   é   å º  å ¤  ä ¸ ª ç ³ » ç »  å º  ç  ¨   * /]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/reset.vue
+第78行包含中文:[                    é   å  ° é  ® é ¢  ?   è ¯ ·]
+第79行包含中文:[                    < a   h r e f = " # " > è   ç ³ » å ® ¢ æ   < / a >]
+第133行包含中文:[                    é   å  ° é  ® é ¢  ?   è ¯ ·]
+第134行包含中文:[                    < a   h r e f = " # " > è   ç ³ » å ® ¢ æ   < / a >]
+文件位置：/Users/a123/Desktop/workplace/gblficc-h5-intl/src/pages/user/setting.vue
+第214行包含中文:[      *   é »  è ® ¤   t e m p   =   t y p e]
+第238行包含中文:[          *   æ   å ¼    m o d a l]
+第247行包含中文:[          *   ç  ¹ é   ä º  æ   ä ¸  ä ¸ ª]
+第255行包含中文:[          *   ç ¡ ® å ® ]
+第280行包含中文:[          *   é   å  º ç  » å ½ ]

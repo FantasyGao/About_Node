@@ -1,0 +1,18 @@
+{
+  "name": "webpack-learing",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack --config config.js"
+  },
+  "dependencies": {
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "moment": "^2.22.2",
+    "node-notifier": "^5.3.0",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "loader-utils": "^1.1.0",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

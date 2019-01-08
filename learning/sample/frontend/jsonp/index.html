@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JSONP实现跨域2</title>
+</head>
+<script type="text/javascript">
+  function han(response) {
+    console.log(response);
+  }
+</script>
+<script src='https://api.douban.com/v2/book/search?callback=han&q=javascript&count=1'></script>
+<body>
+  <div id="mydiv">
+    <button id="btn">点击</button>
+  </div>
+</body>
+<script type="text/javascript">
+  window.onload = function () {
+
+    var oBtn = document.getElementById('btn');
+
+    oBtn.onclick = function () {
+
+      var script = document.createElement("script");
+      script.src = 'https://api.douban.com/v2/book/search?callback=han&q=javascript&count=1';
+      document.body.insertBefore(script, document.body.firstChild);
+    };
+  };
+</script>
+
+</html>

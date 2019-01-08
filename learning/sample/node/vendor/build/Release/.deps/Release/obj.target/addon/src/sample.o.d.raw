@@ -1,0 +1,6 @@
+Release/obj.target/addon/src/sample.o: ../src/sample.cc \
+  /Users/a123/.node-gyp/8.7.0/include/node/node.h \
+  /Users/a123/.node-gyp/8.7.0/include/node/v8.h \
+  /Users/a123/.node-gyp/8.7.0/include/node/v8-version.h \
+  /Users/a123/.node-gyp/8.7.0/include/node/v8config.h \
+  /Users/a123/.node-gyp/8.7.0/include/node/node_version.h
