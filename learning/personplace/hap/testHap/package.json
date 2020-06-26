@@ -52,7 +52,7 @@
     "serve": "^3.4.0",
     "source-map": "^0.5.6",
     "yargs": "^6.6.0",
-    "jsrsasign": "^7.1.2",
+    "jsrsasign": "^8.0.20",
     "jsrsasign-util": "^1.0.0",
     "qrcode-terminal": "^0.11.0",
     "socket.io": "^2.0.3",
